@@ -1,0 +1,27 @@
+{
+  "name": "__qna__plqalg4ip0_key_dates",
+  "entities": [],
+  "contexts": [
+    "global"
+  ],
+  "utterances": {
+    "en": [
+      "Key Dates",
+      "What are the Key Dates",
+      "When does the Semester begin",
+      "When does the next Semester start",
+      "What are the Semester Dates",
+      "How long are the Semesters",
+      "When is the deadline for enrolment",
+      "What is the deciding date",
+      "When Do I start",
+      "When do I start",
+      "ket dates",
+      "When do I need to apply by",
+      "When does the programme start",
+      "When will exams be",
+      "When is graduation"
+    ]
+  },
+  "slots": []
+}

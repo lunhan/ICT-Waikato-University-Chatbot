@@ -1,0 +1,49 @@
+{
+  "name": "programme-information",
+  "utterances": {
+    "en": [
+      "[Postgraduate certificate in information technology](Programme)",
+      "What does the [postgraduate certificate](Programme) entail?",
+      "What is [MIT](Programme)",
+      "What is the [PGCert](Programme)",
+      "What is the [PGCert](Programme)?",
+      "Learn about [MIT](Programme)",
+      "Tell me more about [PGCert](Programme)",
+      "[PGCert](Programme)",
+      "Tell me about [PGCert](Programme)",
+      "I want to know about [PGCert](Programme)",
+      "[postgrad](Programme)",
+      "I’d like to know more about [PGCert](Programme)",
+      "Can I know more about [PGCert](Programme)",
+      "How does the [MInfoTech](Programme) work?",
+      "[MInfoTech](Programme)",
+      "Tell me about [Master of Information Technology](Programme)",
+      "Tell me about the [MIT](Programme) programme",
+      "[MIT](Programme)",
+      "What’s the difference between 120, 180, and 240pt [MInfoTech](Programme)?",
+      "Masters",
+      "I'm interested in [MInfoTech](Programme)",
+      "Im interested in [MInfoTech](Programme) but need more information for future job",
+      "I’d like to know more about [MInfoTech](Programme) Can you tell me about it",
+      "How do I get to [MInfoTech](Programme)",
+      "I want to know more about [MIT](Programme).",
+      "What is the [Masters](Programme) programme",
+      "I wanna know more about [PGCert](Programme)",
+      "can you tell me about [pgcert](Programme)",
+      "[pgcert](Programme)"
+    ]
+  },
+  "slots": [
+    {
+      "id": "-vfnKVTQ66Fr4ddCMazbr",
+      "name": "Programme",
+      "entities": [
+        "Programme"
+      ],
+      "color": 1
+    }
+  ],
+  "contexts": [
+    "global"
+  ]
+}

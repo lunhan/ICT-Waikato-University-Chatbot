@@ -1,0 +1,69 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": []
+  },
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "entry",
+      "name": "entry",
+      "next": [
+        {
+          "condition": "event.nlu.intent.name === 'none'",
+          "node": "Error"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'course-information'",
+          "node": "Primary/Course-Information.flow.json"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'course-recommender'",
+          "node": "Primary/Course-Recommender.flow.json"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'programme-information'",
+          "node": "Primary/Programme-Introduction.flow.json"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'fees'",
+          "node": "Secondary/Fees.flow.json"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'programme-structure'",
+          "node": "Secondary/Programme-Structure.flow.json"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'career-opportunities'",
+          "node": "Secondary/Career-Opportunities.flow.json"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'prerequisites'",
+          "node": "Secondary/Prerequisites.flow.json"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'what-to-study'",
+          "node": "Primary/What-To-Study.flow.json"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null
+    },
+    {
+      "id": "de3f976662",
+      "name": "Error",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "Error-Message {}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

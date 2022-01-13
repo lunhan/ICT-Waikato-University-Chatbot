@@ -1,0 +1,131 @@
+{
+  "nodes": [
+    {
+      "id": "878534",
+      "position": {
+        "x": null,
+        "y": null
+      }
+    },
+    {
+      "id": "447557",
+      "position": {
+        "x": null,
+        "y": null
+      }
+    },
+    {
+      "id": "164512",
+      "position": {
+        "x": null,
+        "y": null
+      }
+    },
+    {
+      "id": "884194",
+      "position": {
+        "x": null,
+        "y": null
+      }
+    },
+    {
+      "id": "221224",
+      "position": {
+        "x": null,
+        "y": null
+      }
+    }
+  ],
+  "links": [
+    {
+      "source": "164512",
+      "sourcePort": "out2",
+      "target": "164512",
+      "points": [
+        {
+          "x": 200,
+          "y": 212
+        },
+        {
+          "x": 1,
+          "y": 17
+        }
+      ]
+    },
+    {
+      "source": "164512",
+      "sourcePort": "out0",
+      "target": "447557",
+      "points": [
+        {
+          "x": 200,
+          "y": 146
+        },
+        {
+          "x": 1,
+          "y": 30
+        }
+      ]
+    },
+    {
+      "source": "878534",
+      "sourcePort": "out1",
+      "target": "164512",
+      "points": [
+        {
+          "x": 200,
+          "y": 152
+        },
+        {
+          "x": 1,
+          "y": 17
+        }
+      ]
+    },
+    {
+      "source": "878534",
+      "sourcePort": "out0",
+      "target": "447557",
+      "points": [
+        {
+          "x": 200,
+          "y": 116
+        },
+        {
+          "x": 1,
+          "y": 30
+        }
+      ]
+    },
+    {
+      "source": "884194",
+      "sourcePort": "out0",
+      "target": "221224",
+      "points": [
+        {
+          "x": 200,
+          "y": 110
+        },
+        {
+          "x": 1,
+          "y": 17
+        }
+      ]
+    },
+    {
+      "source": "884194",
+      "sourcePort": "out1",
+      "target": "878534",
+      "points": [
+        {
+          "x": 200,
+          "y": 140
+        },
+        {
+          "x": null,
+          "y": null
+        }
+      ]
+    }
+  ]
+}

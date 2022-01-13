@@ -1,0 +1,108 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "next": []
+  },
+  "startNode": "check-if-extracted",
+  "skillData": {
+    "retryAttempts": 2,
+    "contentElement": "dropdown-M8MJG_",
+    "notFoundElement": "builtin_text-MJEmUJ",
+    "turnExpiry": 2,
+    "intent": "course-recommender",
+    "slotName": "Interests",
+    "entities": [
+      "Interests"
+    ]
+  },
+  "nodes": [
+    {
+      "name": "slot-extract",
+      "onEnter": [
+        "say #!dropdown-M8MJG_ {}"
+      ],
+      "onReceive": [
+        "basic-skills/slot_fill {\"slotName\":\"Interests\",\"entities\":\"Interests\", \"turnExpiry\":2}"
+      ],
+      "next": [
+        {
+          "condition": "session.slots['Interests'] && (temp.valid === undefined || temp.valid == \"true\")",
+          "node": "extracted"
+        },
+        {
+          "condition": "true",
+          "node": "not-extracted"
+        }
+      ],
+      "id": "339985"
+    },
+    {
+      "name": "extracted",
+      "onEnter": [
+        "builtin/setVariable {\"type\":\"temp\",\"name\":\"extracted\",\"value\":\"true\"}"
+      ],
+      "next": [
+        {
+          "condition": "true",
+          "node": "#"
+        }
+      ],
+      "id": "404186"
+    },
+    {
+      "name": "not-extracted",
+      "onEnter": [
+        "basic-skills/slot_not_found {\"retryAttempts\":\"2\"}",
+        "say #!builtin_text-MJEmUJ {}"
+      ],
+      "onReceive": [
+        "basic-skills/slot_fill {\"slotName\":\"Interests\",\"entities\":\"Interests\", \"turnExpiry\":2}"
+      ],
+      "next": [
+        {
+          "condition": "session.slots['Interests'] && (temp.valid === undefined || temp.valid == \"true\")",
+          "node": "extracted"
+        },
+        {
+          "condition": "temp.notExtracted == \"true\"",
+          "node": "#"
+        },
+        {
+          "condition": "true",
+          "node": "not-extracted"
+        }
+      ],
+      "id": "566902"
+    },
+    {
+      "name": "check-if-extracted",
+      "onEnter": [
+        "basic-skills/slot_update_contexts {\"intentName\":\"course-recommender\"}"
+      ],
+      "next": [
+        {
+          "condition": "session.slots['Interests'] !== undefined",
+          "node": "already-extracted"
+        },
+        {
+          "condition": "true",
+          "node": "slot-extract"
+        }
+      ],
+      "id": "344542"
+    },
+    {
+      "name": "already-extracted",
+      "onEnter": [
+        "builtin/setVariable {\"type\":\"temp\",\"name\":\"alreadyExtracted\",\"value\":\"true\"}"
+      ],
+      "next": [
+        {
+          "condition": "true",
+          "node": "#"
+        }
+      ],
+      "id": "544481"
+    }
+  ]
+}

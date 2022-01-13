@@ -1,0 +1,1419 @@
+[{
+  "_id": {
+    "$oid": "5efc4c7996274d1123e42381"
+  },
+  "code": "COMPSCI 702",
+  "title": "Security for Smart Devices",
+  "prerequisites": [],
+  "restrictions": [],
+  "goodForPGCert": false,
+  "tags": [
+    "Security",
+    "Mobile Devices",
+    "Operating Systems"
+  ],
+  "semester": 1,
+  "sem1": true,
+  "sem2": false,
+  "weight": 1,
+  "soft-skill": false,
+  "softSkill": false,
+  "interests": []
+},{
+  "_id": {
+    "$oid": "5efc4c7996274d1123e42383"
+  },
+  "code": "COMPSCI 720",
+  "title": "Advanced Design and Analysis of Algorithms",
+  "prerequisites": [],
+  "restrictions": [],
+  "goodForPGCert": false,
+  "tags": [
+    "Mathematics",
+    "Algorithms",
+    "Data Structures"
+  ],
+  "semester": 1,
+  "sem1": true,
+  "sem2": false,
+  "weight": 1,
+  "soft-skill": false,
+  "softSkill": false,
+  "interests": []
+},{
+  "_id": {
+    "$oid": "5efc4c7a96274d1123e42385"
+  },
+  "code": "COMPSCI 727",
+  "title": "Cryptographic  Management",
+  "prerequisites": [],
+  "restrictions": [],
+  "goodForPGCert": false,
+  "tags": [
+    "Security",
+    "Cryptography",
+    "Algorithms",
+    "Mathematics"
+  ],
+  "semester": 1,
+  "sem1": true,
+  "sem2": false,
+  "weight": 1,
+  "soft-skill": false,
+  "softSkill": false
+},{
+  "_id": {
+    "$oid": "5efc4c7a96274d1123e42387"
+  },
+  "code": "COMPSCI 732",
+  "title": "Software Tools and Techniques",
+  "prerequisites": [
+    [
+      "COMPSCI 335"
+    ]
+  ],
+  "restrictions": [
+    "SOFTENG 750"
+  ],
+  "goodForPGCert": true,
+  "tags": [
+    "Web Development",
+    "Software Testing",
+    "Version Control",
+    "Software Development",
+    "Project Management"
+  ],
+  "semester": 1,
+  "sem1": true,
+  "sem2": false,
+  "weight": 1,
+  "soft-skill": false,
+  "softSkill": false
+},{
+  "_id": {
+    "$oid": "5efc4c7b96274d1123e42389"
+  },
+  "code": "COMPSCI 734",
+  "title": "Web,Mobile and Enterprise Computing",
+  "prerequisites": [
+    [
+      "COMPSCI 335"
+    ]
+  ],
+  "restrictions": [],
+  "goodForPGCert": false,
+  "tags": [
+    "Security",
+    "Backend Programming",
+    "Functional Programming"
+  ],
+  "semester": 1,
+  "sem1": true,
+  "sem2": false,
+  "weight": 1,
+  "soft-skill": false,
+  "softSkill": false
+},{
+  "_id": {
+    "$oid": "5efc4c7b96274d1123e4238b"
+  },
+  "code": "COMPSCI 751",
+  "title": "Advanced Topics in Database Systems",
+  "prerequisites": [
+    [
+      "COMPSCI 220"
+    ],
+    [
+      "COMPSCI 225"
+    ]
+  ],
+  "restrictions": [
+    "COMPSCI 351",
+    "SOFTENG 351"
+  ],
+  "goodForPGCert": true,
+  "tags": [
+    "Database Design",
+    "Data Science",
+    "Software Development"
+  ],
+  "semester": 1,
+  "sem1": true,
+  "sem2": false,
+  "weight": 1,
+  "soft-skill": false,
+  "softSkill": false
+},{
+  "_id": {
+    "$oid": "5efc4c7c96274d1123e4238d"
+  },
+  "code": "COMPSCI 752",
+  "title": "Big Data Management",
+  "prerequisites": [
+    [
+      "COMPSCI 351"
+    ]
+  ],
+  "restrictions": [],
+  "goodForPGCert": false,
+  "tags": [
+    "Data Science",
+    "Big Data",
+    "Data Mining",
+    "Data Analysis"
+  ],
+  "semester": 1,
+  "sem1": true,
+  "sem2": false,
+  "weight": 1,
+  "soft-skill": false,
+  "softSkill": false
+},{
+  "_id": {
+    "$oid": "5efc4c7c96274d1123e4238f"
+  },
+  "code": "COMPSCI 760",
+  "title": "Data-Mining and Machine Learning",
+  "prerequisites": [
+    [
+      "COMPSCI 361",
+      "COMPSCI 762"
+    ]
+  ],
+  "restrictions": [],
+  "goodForPGCert": false,
+  "tags": [
+    "Machine Learning",
+    "Algorithms",
+    "Mathematics"
+  ],
+  "semester": 2,
+  "sem1": true,
+  "sem2": true,
+  "weight": 1,
+  "soft-skill": false,
+  "softSkill": false
+},{
+  "_id": {
+    "$oid": "5efc4c7d96274d1123e42391"
+  },
+  "code": "COMPSCI 762",
+  "title": "Advanced Machine Learning",
+  "prerequisites": [],
+  "restrictions": [
+    "COMPSCI 361"
+  ],
+  "goodForPGCert": true,
+  "tags": [
+    "Machine Learning",
+    "Algorithms",
+    "Mathematics"
+  ],
+  "semester": 1,
+  "sem1": true,
+  "sem2": false,
+  "weight": 1,
+  "soft-skill": false,
+  "softSkill": false
+},{
+  "_id": {
+    "$oid": "5efc4c7d96274d1123e42393"
+  },
+  "code": "COMPSCI 765",
+  "title": "Interactive Cognitive Systems",
+  "prerequisites": [
+    [
+      "COMPSCI 367",
+      "COMPSCI 761"
+    ]
+  ],
+  "restrictions": [],
+  "goodForPGCert": false,
+  "tags": [
+    "Artificial Intelligence"
+  ],
+  "semester": 1,
+  "sem1": true,
+  "sem2": false,
+  "weight": 1,
+  "soft-skill": false,
+  "softSkill": false
+},{
+  "_id": {
+    "$oid": "5efc4c7e96274d1123e42395"
+  },
+  "code": "COMPSCI 767",
+  "title": "Intelligent Software Agent",
+  "prerequisites": [
+    [
+      "COMPSCI 367",
+      "COMPSCI 761"
+    ]
+  ],
+  "restrictions": [],
+  "goodForPGCert": false,
+  "tags": [
+    "Artificial Intelligence",
+    "Algorithms"
+  ],
+  "semester": 1,
+  "sem1": true,
+  "sem2": false,
+  "weight": 1,
+  "soft-skill": false,
+  "softSkill": false,
+  "interests": []
+},{
+  "_id": {
+    "$oid": "5efc4c7e96274d1123e42397"
+  },
+  "code": "COMPSCI 773",
+  "title": "Intelligent Vision Systems",
+  "prerequisites": [
+    [
+      "COMPSCI 373"
+    ],
+    [
+      "MATHS 208",
+      "MATHS 250",
+      "MATHS 253",
+      "MATHS 254",
+      "MATHS 260",
+      "MATHS 270",
+      "COMPSCI 225"
+    ]
+  ],
+  "restrictions": [],
+  "goodForPGCert": false,
+  "tags": [
+    "Computer Graphics"
+  ],
+  "semester": 1,
+  "sem1": true,
+  "sem2": false,
+  "weight": 1,
+  "soft-skill": false,
+  "softSkill": false
+},{
+  "_id": {
+    "$oid": "5efc4c7f96274d1123e42399"
+  },
+  "code": "COMPSYS 701",
+  "title": "Advanced Digital Systems Design",
+  "prerequisites": [],
+  "restrictions": [],
+  "goodForPGCert": false,
+  "tags": [
+    "Modelling",
+    "Hardware"
+  ],
+  "semester": 1,
+  "sem1": true,
+  "sem2": false,
+  "weight": 0.2,
+  "soft-skill": false,
+  "softSkill": false
+},{
+  "_id": {
+    "$oid": "5efc4c7f96274d1123e4239b"
+  },
+  "code": "COMPSYS 723",
+  "title": "Embedded Systems Design",
+  "prerequisites": [],
+  "restrictions": [],
+  "goodForPGCert": false,
+  "tags": [
+    "Embedded Systems",
+    "Real-Time Computing",
+    "Hardware"
+  ],
+  "semester": 1,
+  "sem1": true,
+  "sem2": false,
+  "weight": 0.2,
+  "soft-skill": false,
+  "softSkill": false
+},{
+  "_id": {
+    "$oid": "5efc4c8096274d1123e4239d"
+  },
+  "code": "COMPSYS 726",
+  "title": "Robotics and Intelligent Systems",
+  "prerequisites": [],
+  "restrictions": [],
+  "goodForPGCert": false,
+  "tags": [
+    "Artificial Intelligence",
+    "Machine Learning",
+    "Robotics"
+  ],
+  "semester": 1,
+  "sem1": true,
+  "sem2": false,
+  "weight": 0.2,
+  "soft-skill": false,
+  "softSkill": false
+},{
+  "_id": {
+    "$oid": "5efc4c8196274d1123e423a1"
+  },
+  "code": "ELECTENG 722",
+  "title": "Control Systems",
+  "prerequisites": [],
+  "restrictions": [],
+  "goodForPGCert": false,
+  "tags": [
+    "Hardware"
+  ],
+  "semester": 1,
+  "sem1": true,
+  "sem2": false,
+  "weight": 0.2,
+  "soft-skill": false,
+  "softSkill": false
+},{
+  "_id": {
+    "$oid": "5efc4c8196274d1123e423a3"
+  },
+  "code": "ELECTENG 732",
+  "title": "Communication Systems",
+  "prerequisites": [],
+  "restrictions": [],
+  "goodForPGCert": false,
+  "tags": [
+    "Hardware",
+    "Data Transfer",
+    "Radio Systems"
+  ],
+  "semester": 1,
+  "sem1": true,
+  "sem2": false,
+  "weight": 0.2,
+  "soft-skill": false,
+  "softSkill": false
+},{
+  "_id": {
+    "$oid": "5efc4c8296274d1123e423a5"
+  },
+  "code": "ELECTENG 733",
+  "title": "Signal Processing",
+  "prerequisites": [],
+  "restrictions": [],
+  "goodForPGCert": false,
+  "tags": [
+    "Hardware"
+  ],
+  "semester": 1,
+  "sem1": true,
+  "sem2": false,
+  "weight": 0.2,
+  "soft-skill": false,
+  "softSkill": false
+},{
+  "_id": {
+    "$oid": "5efc4c8296274d1123e423a7"
+  },
+  "code": "INFOSYS 722",
+  "title": "Data Mining and Big Data",
+  "prerequisites": [],
+  "restrictions": [],
+  "goodForPGCert": true,
+  "tags": [
+    "Data Analysis",
+    "Data Mining",
+    "Big Data"
+  ],
+  "semester": 2,
+  "sem1": true,
+  "sem2": true,
+  "weight": 0.8,
+  "soft-skill": false,
+  "softSkill": false
+},{
+  "_id": {
+    "$oid": "5efc4c8396274d1123e423a9"
+  },
+  "code": "INFOSYS 727",
+  "title": "Advanced Information Security",
+  "prerequisites": [],
+  "restrictions": [],
+  "goodForPGCert": true,
+  "tags": [
+    "Security",
+    "Cryptography"
+  ],
+  "semester": 1,
+  "sem1": true,
+  "sem2": false,
+  "weight": 0.8,
+  "soft-skill": false,
+  "softSkill": false
+},{
+  "_id": {
+    "$oid": "5efc4c8396274d1123e423ab"
+  },
+  "code": "INFOSYS 730",
+  "title": "Telecommunications Management",
+  "prerequisites": [],
+  "restrictions": [],
+  "goodForPGCert": true,
+  "tags": [
+    "Networks"
+  ],
+  "semester": 1,
+  "sem1": true,
+  "sem2": false,
+  "weight": 0.8,
+  "soft-skill": false,
+  "softSkill": false
+},{
+  "_id": {
+    "$oid": "5efc4c8496274d1123e423ad"
+  },
+  "code": "INFOSYS 735",
+  "title": "Cloud Computing Architecture",
+  "prerequisites": [],
+  "restrictions": [],
+  "goodForPGCert": true,
+  "tags": [
+    "Cloud Computing"
+  ],
+  "semester": 2,
+  "sem1": true,
+  "sem2": true,
+  "weight": 0.8,
+  "soft-skill": false,
+  "softSkill": false
+},{
+  "_id": {
+    "$oid": "5efc4c8496274d1123e423af"
+  },
+  "code": "SOFTENG 701",
+  "title": "Advanced Software Development Methods",
+  "prerequisites": [],
+  "restrictions": [],
+  "goodForPGCert": false,
+  "tags": [
+    "Backend Programming",
+    "Software Engineering",
+    "Software Development"
+  ],
+  "semester": 1,
+  "sem1": true,
+  "sem2": false,
+  "weight": 0.4,
+  "soft-skill": false,
+  "softSkill": false
+},{
+  "_id": {
+    "$oid": "5efc4c8596274d1123e423b1"
+  },
+  "code": "SOFTENG 751",
+  "title": "High Performance Computing",
+  "prerequisites": [],
+  "restrictions": [],
+  "goodForPGCert": false,
+  "tags": [
+    "Real-Time Computing",
+    "Concurrency",
+    "Software Development"
+  ],
+  "semester": 1,
+  "sem1": true,
+  "sem2": false,
+  "weight": 0.4,
+  "soft-skill": false,
+  "softSkill": false
+},{
+  "_id": {
+    "$oid": "5efc4c8596274d1123e423b3"
+  },
+  "code": "SOFTENG 754",
+  "title": "Software Requirements Engineering",
+  "prerequisites": [],
+  "restrictions": [],
+  "goodForPGCert": false,
+  "tags": [
+    "Software Testing",
+    "Software Engineering",
+    "Software Development",
+    "Business Analysis",
+    "Project Management"
+  ],
+  "semester": 1,
+  "sem1": true,
+  "sem2": false,
+  "weight": 0.4,
+  "soft-skill": false,
+  "softSkill": false
+},{
+  "_id": {
+    "$oid": "5efc4c8696274d1123e423b5"
+  },
+  "code": "STATS 762",
+  "title": "Regression for Data Science",
+  "prerequisites": [
+    [
+      "STATS 707",
+      "STATS 210",
+      "STATS 225"
+    ],
+    [
+      "STATS 201",
+      "STATS 207",
+      "STATS 208"
+    ]
+  ],
+  "restrictions": [
+    "STATS 330"
+  ],
+  "goodForPGCert": false,
+  "tags": [
+    "Mathematics",
+    "Statistics",
+    "Data Science"
+  ],
+  "semester": 1,
+  "sem1": true,
+  "sem2": false,
+  "weight": 0.8,
+  "soft-skill": false,
+  "softSkill": false
+},{
+  "_id": {
+    "$oid": "5efc4c8796274d1123e423b9"
+  },
+  "code": "COMPSCI 701",
+  "title": "Creating Maintainable Software",
+  "prerequisites": [],
+  "restrictions": [],
+  "goodForPGCert": false,
+  "tags": [
+    "Software Development",
+    "Software Engineering",
+    "Backend Programming"
+  ],
+  "semester": 2,
+  "sem1": false,
+  "sem2": true,
+  "weight": 1,
+  "soft-skill": false,
+  "softSkill": false
+},{
+  "_id": {
+    "$oid": "5efc4c8896274d1123e423bb"
+  },
+  "code": "COMPSCI 705",
+  "title": "Advanced Topics in Human Computer Interaction",
+  "prerequisites": [
+    [
+      "COMPSCI 345",
+      "SOFTENG 350"
+    ]
+  ],
+  "restrictions": [
+    "SOFTENG 702"
+  ],
+  "goodForPGCert": false,
+  "tags": [
+    "Human-Computer Interaction",
+    "Software Engineering"
+  ],
+  "semester": 2,
+  "sem1": false,
+  "sem2": true,
+  "weight": 1,
+  "soft-skill": false,
+  "softSkill": false
+},{
+  "_id": {
+    "$oid": "5efc4c8896274d1123e423bd"
+  },
+  "code": "COMPSCI 711",
+  "title": "Parallel and Distributed Computing",
+  "prerequisites": [
+    [
+      "COMPSCI 335"
+    ]
+  ],
+  "restrictions": [],
+  "goodForPGCert": false,
+  "tags": [
+    "Concurrency",
+    "Algorithms",
+    "Software Development"
+  ],
+  "semester": 2,
+  "sem1": false,
+  "sem2": true,
+  "weight": 1,
+  "soft-skill": false,
+  "softSkill": false
+},{
+  "_id": {
+    "$oid": "5efc4c8996274d1123e423bf"
+  },
+  "code": "COMPSCI 715",
+  "title": "Advanced Computer Graphics",
+  "prerequisites": [
+    [
+      "COMPSCI 373"
+    ],
+    [
+      "MATHS 208",
+      "MATHS 250",
+      "MATHS 253",
+      "MATHS 254",
+      "MATHS 260",
+      "MATHS 270",
+      "COMPSCI 225"
+    ]
+  ],
+  "restrictions": [],
+  "goodForPGCert": false,
+  "tags": [
+    "Mathematics",
+    "Computer Graphics"
+  ],
+  "semester": 2,
+  "sem1": false,
+  "sem2": true,
+  "weight": 1,
+  "soft-skill": false,
+  "softSkill": false
+},{
+  "_id": {
+    "$oid": "5efc4c8996274d1123e423c1"
+  },
+  "code": "COMPSCI 725",
+  "title": "System Security",
+  "prerequisites": [
+    [
+      "COMPSCI 313",
+      "COMPSCI 314",
+      "COMPSCI 320",
+      "COMPSCI 335",
+      "COMPSCI 340",
+      "COMPSCI 351",
+      "COMPSCI 702",
+      "COMPSCI 734",
+      "COMPSCI 742"
+    ],
+    [
+      "COMPSCI 313",
+      "COMPSCI 314",
+      "COMPSCI 320",
+      "COMPSCI 335",
+      "COMPSCI 340",
+      "COMPSCI 351",
+      "COMPSCI 702",
+      "COMPSCI 734",
+      "COMPSCI 742"
+    ]
+  ],
+  "restrictions": [],
+  "goodForPGCert": false,
+  "tags": [
+    "Security"
+  ],
+  "semester": 2,
+  "sem1": false,
+  "sem2": true,
+  "weight": 1,
+  "soft-skill": false,
+  "softSkill": false
+},{
+  "_id": {
+    "$oid": "5efc4c8a96274d1123e423c3"
+  },
+  "code": "COMPSCI 726",
+  "title": "Network Defence and Countermeasures",
+  "prerequisites": [
+    [
+      "COMPSCI 314"
+    ]
+  ],
+  "restrictions": [],
+  "goodForPGCert": false,
+  "tags": [
+    "Security",
+    "Networks"
+  ],
+  "semester": 2,
+  "sem1": false,
+  "sem2": true,
+  "weight": 1,
+  "soft-skill": false,
+  "softSkill": false
+},{
+  "_id": {
+    "$oid": "5efc4c8a96274d1123e423c5"
+  },
+  "code": "COMPSCI 742",
+  "title": "Advanced Internet: Global Data Communications",
+  "prerequisites": [
+    [
+      "COMPSCI 314"
+    ]
+  ],
+  "restrictions": [],
+  "goodForPGCert": false,
+  "tags": [
+    "Networks"
+  ],
+  "semester": 2,
+  "sem1": false,
+  "sem2": true,
+  "weight": 1,
+  "soft-skill": false,
+  "softSkill": false
+},{
+  "_id": {
+    "$oid": "5efc4c8b96274d1123e423c7"
+  },
+  "code": "COMPSCI 750",
+  "title": "Computational Complexity",
+  "prerequisites": [
+    [
+      "COMPSCI 320",
+      "COMPSCI 350"
+    ]
+  ],
+  "restrictions": [],
+  "goodForPGCert": false,
+  "tags": [
+    "Software Theory",
+    "Algorithms"
+  ],
+  "semester": 2,
+  "sem1": false,
+  "sem2": true,
+  "weight": 1,
+  "soft-skill": false,
+  "softSkill": false
+},{
+  "_id": {
+    "$oid": "5efc4c8b96274d1123e423c9"
+  },
+  "code": "COMPSCI 753",
+  "title": "Algorithms for Massive Data",
+  "prerequisites": [
+    [
+      "COMPSCI 351"
+    ]
+  ],
+  "restrictions": [],
+  "goodForPGCert": false,
+  "tags": [
+    "Data Science",
+    "Big Data",
+    "Algorithms",
+    "Mathematics"
+  ],
+  "semester": 2,
+  "sem1": false,
+  "sem2": true,
+  "weight": 1,
+  "soft-skill": false,
+  "softSkill": false
+},{
+  "_id": {
+    "$oid": "5efc4c8c96274d1123e423cc"
+  },
+  "code": "COMPSCI 761",
+  "title": "Advanced Topics in Artificial Intelligence",
+  "prerequisites": [
+    [
+      "COMPSCI 220",
+      "COMPSCI 225"
+    ]
+  ],
+  "restrictions": [
+    "COMPSCI 365",
+    "366",
+    "367"
+  ],
+  "goodForPGCert": true,
+  "tags": [
+    "Artificial Intelligence",
+    "Algorithms"
+  ],
+  "semester": 2,
+  "sem1": false,
+  "sem2": true,
+  "weight": 1,
+  "soft-skill": false,
+  "softSkill": false
+},{
+  "_id": {
+    "$oid": "5efc4c8d96274d1123e423ce"
+  },
+  "code": "COMPSYS 704",
+  "title": "Advanced Embedded Systems",
+  "prerequisites": [],
+  "restrictions": [],
+  "goodForPGCert": false,
+  "tags": [
+    "Embedded Systems",
+    "Hardware"
+  ],
+  "semester": 2,
+  "sem1": false,
+  "sem2": true,
+  "weight": 0.2,
+  "soft-skill": false,
+  "softSkill": false
+},{
+  "_id": {
+    "$oid": "5efc4c8d96274d1123e423d0"
+  },
+  "code": "COMPSYS 705",
+  "title": "Formal Methods for Engineers",
+  "prerequisites": [],
+  "restrictions": [],
+  "goodForPGCert": false,
+  "tags": [
+    "Mathematics",
+    "Embedded Systems",
+    "Hardware"
+  ],
+  "semester": 2,
+  "sem1": false,
+  "sem2": true,
+  "weight": 0.2,
+  "soft-skill": false,
+  "softSkill": false
+},{
+  "_id": {
+    "$oid": "5efc4c8e96274d1123e423d2"
+  },
+  "code": "COMPSYS 725",
+  "title": "Computer Networks and Distributed Applications",
+  "prerequisites": [],
+  "restrictions": [],
+  "goodForPGCert": false,
+  "tags": [
+    "Networks",
+    "Embedded Systems",
+    "Hardware"
+  ],
+  "semester": 2,
+  "sem1": false,
+  "sem2": true,
+  "weight": 0.2,
+  "soft-skill": false,
+  "softSkill": false
+},{
+  "_id": {
+    "$oid": "5efc4c8e96274d1123e423d4"
+  },
+  "code": "ELECTENG 726",
+  "title": "Digital Communications",
+  "prerequisites": [],
+  "restrictions": [],
+  "goodForPGCert": false,
+  "tags": [
+    "Hardware",
+    "Data Transfer"
+  ],
+  "semester": 2,
+  "sem1": false,
+  "sem2": true,
+  "weight": 0.2,
+  "soft-skill": false,
+  "softSkill": false
+},{
+  "_id": {
+    "$oid": "5efc4c9096274d1123e423d8"
+  },
+  "code": "INFOSYS 737",
+  "title": "Adaptive Enterprise Systems",
+  "prerequisites": [],
+  "restrictions": [],
+  "goodForPGCert": true,
+  "tags": [
+    "Cloud Computing",
+    "Business Analysis",
+    "Project Management"
+  ],
+  "semester": 2,
+  "sem1": false,
+  "sem2": true,
+  "weight": 0.71,
+  "soft-skill": false,
+  "softSkill": false
+},{
+  "_id": {
+    "$oid": "5efc4c9196274d1123e423dc"
+  },
+  "code": "SOFTENG 752",
+  "title": "Formal Specification and Design",
+  "prerequisites": [],
+  "restrictions": [],
+  "goodForPGCert": false,
+  "tags": [
+    "Software Theory"
+  ],
+  "semester": 2,
+  "sem1": false,
+  "sem2": true,
+  "weight": 0.4,
+  "soft-skill": false,
+  "softSkill": false
+},{
+  "_id": {
+    "$oid": "5efc4c9196274d1123e423de"
+  },
+  "code": "SOFTENG 761",
+  "title": "Agile and Lean Software Development",
+  "prerequisites": [
+    [
+      "SOFTENG306"
+    ]
+  ],
+  "restrictions": [],
+  "goodForPGCert": false,
+  "tags": [
+    "Software Engineering",
+    "Software Development",
+    "Business Analysis",
+    "Project Management"
+  ],
+  "semester": 2,
+  "sem1": false,
+  "sem2": true,
+  "weight": 0.4,
+  "soft-skill": false,
+  "softSkill": false
+},{
+  "_id": {
+    "$oid": "5efc4c9296274d1123e423e0"
+  },
+  "code": "STATS 705",
+  "title": "Topics in Official Statistics",
+  "prerequisites": [],
+  "restrictions": [],
+  "goodForPGCert": false,
+  "tags": [
+    "Statistics",
+    "Mathematics"
+  ],
+  "semester": 2,
+  "sem1": false,
+  "sem2": true,
+  "weight": 0.8,
+  "soft-skill": false,
+  "softSkill": false
+},{
+  "_id": {
+    "$oid": "5efc544d15765836c325a6aa"
+  },
+  "code": "HLTHINFO 723",
+  "title": "Health Knowledge Management",
+  "prerequisites": [],
+  "restrictions": [],
+  "goodForPGCert": false,
+  "tags": [
+    "Health IT",
+    "Business Analysis"
+  ],
+  "sem1": true,
+  "sem2": false,
+  "soft-skill": true,
+  "weight": 1,
+  "softSkill": true
+},{
+  "_id": {
+    "$oid": "5efc544e15765836c325a6ac"
+  },
+  "code": "HLTHINFO 728",
+  "title": "Principles of Health Informatics",
+  "prerequisites": [],
+  "restrictions": [],
+  "goodForPGCert": false,
+  "tags": [
+    "Health IT",
+    "Business Analysis"
+  ],
+  "sem1": true,
+  "sem2": false,
+  "soft-skill": true,
+  "weight": 1,
+  "softSkill": true
+},{
+  "_id": {
+    "$oid": "5efc544e15765836c325a6ae"
+  },
+  "code": "INFOSYS 700",
+  "title": "Digital Innovation",
+  "prerequisites": [],
+  "restrictions": [],
+  "goodForPGCert": false,
+  "tags": [
+    "Entrepreneurship",
+    "Innovation"
+  ],
+  "sem1": true,
+  "sem2": true,
+  "soft-skill": true,
+  "weight": 1,
+  "softSkill": true
+},{
+  "_id": {
+    "$oid": "5efc544f15765836c325a6b0"
+  },
+  "code": "INFOSYS 720",
+  "title": "Information Systems Research",
+  "prerequisites": [],
+  "restrictions": [],
+  "goodForPGCert": false,
+  "tags": [
+    "Research Skills"
+  ],
+  "sem1": true,
+  "sem2": false,
+  "soft-skill": true,
+  "weight": 1,
+  "softSkill": true
+},{
+  "_id": {
+    "$oid": "5efc544f15765836c325a6b2"
+  },
+  "code": "INFOSYS 750",
+  "title": "Research Methods - Quantitative",
+  "prerequisites": [
+    [
+      "STATS 201",
+      "STATS 208",
+      "STATS 210",
+      "STATS 220",
+      "STATS 240",
+      "STATS 255"
+    ]
+  ],
+  "restrictions": [],
+  "goodForPGCert": false,
+  "tags": [
+    "Research Skills",
+    "Data Analysis",
+    "Statistics"
+  ],
+  "sem1": true,
+  "sem2": true,
+  "soft-skill": true,
+  "weight": 1,
+  "softSkill": true
+},{
+  "_id": {
+    "$oid": "5efc545015765836c325a6b4"
+  },
+  "code": "INFOSYS 751",
+  "title": "Research Methods - Qualitative",
+  "prerequisites": [],
+  "restrictions": [],
+  "goodForPGCert": false,
+  "tags": [
+    "Research Skills",
+    "Data Analysis"
+  ],
+  "sem1": true,
+  "sem2": true,
+  "soft-skill": true,
+  "weight": 1,
+  "softSkill": true
+},{
+  "_id": {
+    "$oid": "5efc545015765836c325a6b6"
+  },
+  "code": "GLMI 708",
+  "title": "Critical, Creative and Strategic Thinking",
+  "prerequisites": [],
+  "restrictions": [],
+  "goodForPGCert": false,
+  "tags": [
+    "Critical Thinking",
+    "Entrepreneurship"
+  ],
+  "sem1": true,
+  "sem2": false,
+  "soft-skill": true,
+  "weight": 1,
+  "softSkill": true
+},{
+  "_id": {
+    "$oid": "5efc545115765836c325a6b8"
+  },
+  "code": "GLMI 709",
+  "title": "Creating Global Ventures",
+  "prerequisites": [],
+  "restrictions": [],
+  "goodForPGCert": false,
+  "tags": [
+    "Entrepreneurship"
+  ],
+  "sem1": true,
+  "sem2": true,
+  "soft-skill": true,
+  "weight": 1,
+  "softSkill": true
+},{
+  "_id": {
+    "$oid": "5efc545215765836c325a6ba"
+  },
+  "code": "GLMI 711",
+  "title": "Strategic Entrepreneurship and Innovation",
+  "prerequisites": [],
+  "restrictions": [],
+  "goodForPGCert": false,
+  "tags": [
+    "Entrepreneurship",
+    "Innovation"
+  ],
+  "sem1": true,
+  "sem2": false,
+  "soft-skill": true,
+  "weight": 1,
+  "softSkill": true
+},{
+  "_id": {
+    "$oid": "5efc545215765836c325a6bc"
+  },
+  "code": "GLMI 712",
+  "title": "Understanding and Managing Creativity",
+  "prerequisites": [],
+  "restrictions": [],
+  "goodForPGCert": false,
+  "tags": [
+    "Entrepreneurship",
+    "Innovation"
+  ],
+  "sem1": true,
+  "sem2": false,
+  "soft-skill": true,
+  "weight": 1,
+  "softSkill": true
+},{
+  "_id": {
+    "$oid": "5efc545315765836c325a6be"
+  },
+  "code": "OPSMGT 757",
+  "title": "Project Management",
+  "prerequisites": [],
+  "restrictions": [],
+  "goodForPGCert": false,
+  "tags": [
+    "Project Management"
+  ],
+  "sem1": true,
+  "sem2": true,
+  "soft-skill": true,
+  "weight": 1,
+  "softSkill": true
+},{
+  "_id": {
+    "$oid": "5efc545315765836c325a6c0"
+  },
+  "code": "SCIENT 701",
+  "title": "Accounting and Finance for Scientists",
+  "prerequisites": [],
+  "restrictions": [],
+  "goodForPGCert": false,
+  "tags": [
+    "Accounting"
+  ],
+  "sem1": true,
+  "sem2": false,
+  "soft-skill": true,
+  "weight": 1,
+  "softSkill": true
+},{
+  "_id": {
+    "$oid": "5efc545415765836c325a6c2"
+  },
+  "code": "STATS 779",
+  "title": "Professional Skills for Statisticians",
+  "prerequisites": [],
+  "restrictions": [],
+  "goodForPGCert": false,
+  "tags": [
+    "Statistics",
+    "Data Analysis",
+    "Ethics"
+  ],
+  "sem1": true,
+  "sem2": false,
+  "soft-skill": true,
+  "weight": 1,
+  "softSkill": true
+},{
+  "_id": {
+    "$oid": "5efc545515765836c325a6c5"
+  },
+  "code": "HLTHINFO 730",
+  "title": "Healthcare Decision Support Systems",
+  "prerequisites": [],
+  "restrictions": [],
+  "goodForPGCert": false,
+  "tags": [
+    "Health IT",
+    "Data Mining",
+    "Ethics"
+  ],
+  "sem2": true,
+  "soft-skill": true,
+  "weight": 1,
+  "sem1": false,
+  "softSkill": true
+},{
+  "_id": {
+    "$oid": "5efc545615765836c325a6c8"
+  },
+  "code": "INFOSYS 701",
+  "title": "Global Outsourcing",
+  "prerequisites": [],
+  "restrictions": [],
+  "goodForPGCert": false,
+  "tags": [
+    "Entrepreneurship"
+  ],
+  "sem1": false,
+  "sem2": true,
+  "soft-skill": true,
+  "weight": 1,
+  "softSkill": true
+},{
+  "_id": {
+    "$oid": "5efc545615765836c325a6ca"
+  },
+  "code": "INFOSYS 725",
+  "title": "New Perspectives on Organisations and Information Systems",
+  "prerequisites": [],
+  "restrictions": [],
+  "goodForPGCert": false,
+  "tags": [
+    "Research Skills"
+  ],
+  "sem1": false,
+  "sem2": true,
+  "soft-skill": true,
+  "weight": 1,
+  "softSkill": true
+},{
+  "_id": {
+    "$oid": "5efc545715765836c325a6cc"
+  },
+  "code": "INFOSYS 740",
+  "title": "System Dynamics and Complex Modelling",
+  "prerequisites": [],
+  "restrictions": [],
+  "goodForPGCert": false,
+  "tags": [
+    "Business Analysis"
+  ],
+  "sem1": false,
+  "sem2": true,
+  "soft-skill": true,
+  "weight": 1,
+  "softSkill": true,
+  "interests": []
+},{
+  "_id": {
+    "$oid": "5efc545815765836c325a6d0"
+  },
+  "code": "GLMI 701",
+  "title": "Competing Internationally",
+  "prerequisites": [],
+  "restrictions": [],
+  "goodForPGCert": false,
+  "tags": [
+    "Entrepreneurship",
+    "Innovation"
+  ],
+  "sem1": false,
+  "sem2": true,
+  "soft-skill": true,
+  "weight": 1,
+  "softSkill": true
+},{
+  "_id": {
+    "$oid": "5efc545915765836c325a6d2"
+  },
+  "code": "GLMI 706",
+  "title": "Working in an Age of Uncertainty",
+  "prerequisites": [],
+  "restrictions": [],
+  "goodForPGCert": false,
+  "tags": [
+    "Entrepreneurship",
+    "Innovation"
+  ],
+  "sem1": false,
+  "sem2": true,
+  "soft-skill": true,
+  "weight": 1,
+  "softSkill": true
+},{
+  "_id": {
+    "$oid": "5efc545a15765836c325a6d5"
+  },
+  "code": "GLMI 710",
+  "title": "Innovation and Knowledge Management",
+  "prerequisites": [],
+  "restrictions": [],
+  "goodForPGCert": false,
+  "tags": [
+    "Entrepreneurship",
+    "Innovation"
+  ],
+  "sem1": false,
+  "sem2": true,
+  "soft-skill": true,
+  "weight": 1,
+  "softSkill": true
+},{
+  "_id": {
+    "$oid": "5effe56cc5f87cc6ad902230"
+  },
+  "code": "STATS 707",
+  "semester": 1,
+  "sem1": true,
+  "sem2": false,
+  "prerequisites": [
+    [
+      "STATS 101",
+      "STATS 108"
+    ],
+    [
+      "COMPSCI 101",
+      "MATHS 162"
+    ]
+  ],
+  "tags": [
+    "Mathematics",
+    "Data Analysis",
+    "Statistics"
+  ],
+  "weight": 0.8,
+  "soft-skill": false,
+  "title": "Computational Introduction to Statistics",
+  "softSkill": false
+},{
+  "_id": {
+    "$oid": "5f5969c115a802980a11861f"
+  },
+  "title": "Biology for Biomedical Science: Organ Systems",
+  "interests": [],
+  "restrictions": [
+    "COMPSCI 705"
+  ],
+  "prerequisites": [],
+  "sem1": true,
+  "sem2": true,
+  "goodForPGCert": false,
+  "softSkill": false,
+  "code": "MEDSCI 142",
+  "tags": [
+    "Accounting"
+  ],
+  "weight": ""
+}]

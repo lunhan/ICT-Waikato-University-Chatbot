@@ -1,0 +1,42 @@
+{
+  "id": "dkhw7wxqch_i_want_to_contact_you",
+  "data": {
+    "action": "text",
+    "contexts": [
+      "global"
+    ],
+    "enabled": true,
+    "answers": {
+      "en": [
+        "#!builtin_text-iNOtZ2"
+      ]
+    },
+    "questions": {
+      "en": [
+        "I want to contact you",
+        "How do I contact you ",
+        "Are there any course advisors I can speak to about MInfoTech",
+        "I want to contact the ICT grad school",
+        "I have some more advanced questions I want to ask",
+        "I am disappointed in you",
+        "Who can I contact for more info?",
+        "How do I contact the ICT Grad School",
+        "I’d like to make an enquiry",
+        "I would like to speak to a person",
+        "Connect me to someone",
+        "Connect me to somebody",
+        "I want to talk to someone",
+        "Is there a human",
+        "I want more help",
+        "Who can I contact more info?",
+        "Contact",
+        "Enquiry",
+        "I like to speak to a person",
+        "Who can I contact for more information",
+        "Get more help"
+      ]
+    },
+    "redirectFlow": "",
+    "redirectNode": ""
+  }
+}

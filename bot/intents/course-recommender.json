@@ -1,0 +1,69 @@
+{
+  "name": "course-recommender",
+  "utterances": {
+    "en": [
+      "What courses would you recommend",
+      "recommend",
+      "can I get another recommendation",
+      "Can I get some courses recommended",
+      "recommend courses on [databases](Interests)",
+      "What courses should I study",
+      "I don't know what courses to do",
+      "What courses are the best",
+      "recommend me my last course.",
+      "I need help to choose 1 course.",
+      "I'm not sure what to choose for my last 2 courses.",
+      "Please help me recommend 3 courses.",
+      "Please recommend me three courses.",
+      "Please recommend me four courses.",
+      "What course should I take for my final course.",
+      "Please recommend me some courses",
+      "Please recommend me some courses to take if I like [Math](Interests) and [Algorithms](Interests)",
+      "what kind of course is help to get into [MInfoTech](Interests)",
+      "What sort of courses are good.",
+      "What courses are the easiest to get good grades",
+      "Course Recommend",
+      "I want to choose courses related to Web Development",
+      "Recommend me courses about [AI](Interests)",
+      "Recommend me courses about [Algorithms](Interests).",
+      "Recommend me courses about [Machine Learning](Interests).",
+      "Recommend me some courses to do with [mathematics](Interests).",
+      "What courses are in MInfoTech",
+      "What courses are included in MInfoTech",
+      "What courses are available for the MInfoTech",
+      "What courses are available for MIT",
+      "What courses should I look into.",
+      "I'm interested in Cyber Security",
+      "I want to work towards a career of Data Sciences what are the recommended courses",
+      "I am interested in AI.",
+      "Please show me the course recommender system nerd.",
+      "Help me find coding papers",
+      "What courses are available for the minfotech",
+      "What courses can I enrol in the MINFOTech",
+      "I like [Software Engineering](Interests)",
+      "If I like [Software Engineering](Interests), what courses should I take",
+      "I'm interested in [Software Engineering](Interests), what courses do you recommend",
+      "Im interested in [Software Engineering](Interests), can you recommend courses on it",
+      "I'm interested in enrolling for the Masters of IT, do you have courses you can recommend if I'm interested in [cloud computing](Interests)?",
+      "how about [security](Interests)?",
+      "what about [databases](Interests)",
+      "now give me courses related to [ethics](Interests)",
+      "I want to know more about [security](Interests)",
+      "Tell me courses about [concurrency](Interests)",
+      "can you recommend some courses "
+    ]
+  },
+  "slots": [
+    {
+      "id": "djox1theOIrsBZFPrrud9",
+      "name": "Interests",
+      "entities": [
+        "Interests"
+      ],
+      "color": 1
+    }
+  ],
+  "contexts": [
+    "global"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "name": "what-to-study",
+  "utterances": {
+    "en": [
+      "Which programme is best for me",
+      "I'm not sure what programme is best for me",
+      "What should I study",
+      "What am I eligible for",
+      "What program am I able to enrol in",
+      "Am I able to enrol in the minfotech if I have a bachelors of arts",
+      "I have a business degree",
+      "Should I enrol in the PGCert",
+      "Should I enrol in the MInfoTech",
+      "Is this the best choice for me",
+      "Should I really do this",
+      "Am I required to do the PGCert",
+      "What program for the MInfoTech is best for me",
+      "Can I take the 180pt masters programme",
+      "I studied economics in my undergrad, can I take this programme directly",
+      "I havent been studying for a while, what can I do?",
+      "I have a software engineering degree, can I still do PGCert.",
+      "Is the PGCert a good choice for him?",
+      "Is the PGCert a good choice for me?",
+      "I don't have a CS Background. What courses can I take?",
+      "What programme should I take",
+      "Which programme is better for me",
+      "Am I eligible to enrol",
+      "I want to get into IT.",
+      "Please teach me IT.",
+      "What is a good starting point for someone with no qualifications",
+      "Can I study minfotech directly",
+      "What masters programme can I take",
+      "can I take minfotech directly",
+      "Which variant of MInfoTech do I need to do with a bachelor of arts?",
+      "Which variant of MInfoTech do I need to do with a bachelor of computer science?",
+      "I have a Bachelors in Computer Science. What should I study?"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "next": []
+  },
+  "startNode": "check-if-extracted",
+  "skillData": {
+    "retryAttempts": 2,
+    "contentElement": "dropdown-1Lt2fo",
+    "notFoundElement": "dropdown-BuNKDL",
+    "turnExpiry": 1,
+    "intent": "course-recommender",
+    "slotName": "Interests",
+    "entities": [
+      "Interests"
+    ]
+  },
+  "nodes": [
+    {
+      "name": "slot-extract",
+      "onEnter": [
+        "say #!dropdown-1Lt2fo {}"
+      ],
+      "onReceive": [
+        "basic-skills/slot_fill {\"slotName\":\"Interests\",\"entities\":\"Interests\", \"turnExpiry\":1}"
+      ],
+      "next": [
+        {
+          "condition": "session.slots['Interests'] && (temp.valid === undefined || temp.valid == \"true\")",
+          "node": "extracted"
+        },
+        {
+          "condition": "true",
+          "node": "not-extracted"
+        }
+      ],
+      "id": "878534"
+    },
+    {
+      "name": "extracted",
+      "onEnter": [
+        "builtin/setVariable {\"type\":\"temp\",\"name\":\"extracted\",\"value\":\"true\"}"
+      ],
+      "next": [
+        {
+          "condition": "true",
+          "node": "#"
+        }
+      ],
+      "id": "447557"
+    },
+    {
+      "name": "not-extracted",
+      "onEnter": [
+        "basic-skills/slot_not_found {\"retryAttempts\":\"2\"}",
+        "say #!dropdown-BuNKDL {}"
+      ],
+      "onReceive": [
+        "basic-skills/slot_fill {\"slotName\":\"Interests\",\"entities\":\"Interests\", \"turnExpiry\":1}"
+      ],
+      "next": [
+        {
+          "condition": "session.slots['Interests'] && (temp.valid === undefined || temp.valid == \"true\")",
+          "node": "extracted"
+        },
+        {
+          "condition": "temp.notExtracted == \"true\"",
+          "node": "#"
+        },
+        {
+          "condition": "true",
+          "node": "not-extracted"
+        }
+      ],
+      "id": "164512"
+    },
+    {
+      "name": "check-if-extracted",
+      "onEnter": [
+        "basic-skills/slot_update_contexts {\"intentName\":\"course-recommender\"}"
+      ],
+      "next": [
+        {
+          "condition": "session.slots['Interests'] !== undefined",
+          "node": "already-extracted"
+        },
+        {
+          "condition": "true",
+          "node": "slot-extract"
+        }
+      ],
+      "id": "884194"
+    },
+    {
+      "name": "already-extracted",
+      "onEnter": [
+        "builtin/setVariable {\"type\":\"temp\",\"name\":\"alreadyExtracted\",\"value\":\"true\"}"
+      ],
+      "next": [
+        {
+          "condition": "true",
+          "node": "#"
+        }
+      ],
+      "id": "221224"
+    }
+  ]
+}

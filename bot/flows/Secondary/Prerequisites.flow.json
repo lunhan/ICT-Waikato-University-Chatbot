@@ -1,0 +1,19 @@
+{
+  "version": "0.0.1",
+  "catchAll": {},
+  "startNode": "entry",
+  "description": "",
+  "nodes": [
+    {
+      "id": "4961c10efb",
+      "name": "entry",
+      "onEnter": [
+        "Intent-To-Choice {\"topic\":\"Prerequisites\",\"pgCertId\":\"#!builtin_text-gTnLpC\",\"mInfoTechId\":\"#!builtin_text-xsYUcs\"}",
+        "Reset-Slots {}"
+      ],
+      "onReceive": null,
+      "next": [],
+      "type": "standard"
+    }
+  ]
+}

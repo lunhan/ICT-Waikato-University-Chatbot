@@ -1,0 +1,217 @@
+{
+  "id": "interests",
+  "name": "Interests",
+  "type": "list",
+  "occurrences": [
+    {
+      "name": "Accounting",
+      "synonyms": []
+    },
+    {
+      "name": "Algorithms",
+      "synonyms": []
+    },
+    {
+      "name": "Artificial Intelligence",
+      "synonyms": [
+        "AI",
+        "ai"
+      ]
+    },
+    {
+      "name": "Backend Programming",
+      "synonyms": []
+    },
+    {
+      "name": "Big Data",
+      "synonyms": []
+    },
+    {
+      "name": "Business Analysis",
+      "synonyms": []
+    },
+    {
+      "name": "Cloud Computing",
+      "synonyms": []
+    },
+    {
+      "name": "Computer Graphics",
+      "synonyms": []
+    },
+    {
+      "name": "Concurrency",
+      "synonyms": []
+    },
+    {
+      "name": "Critical Thinking",
+      "synonyms": []
+    },
+    {
+      "name": "Cryptography",
+      "synonyms": []
+    },
+    {
+      "name": "Data Analysis",
+      "synonyms": [
+        "DA"
+      ]
+    },
+    {
+      "name": "Data Mining",
+      "synonyms": []
+    },
+    {
+      "name": "Data Science",
+      "synonyms": []
+    },
+    {
+      "name": "Data Structures",
+      "synonyms": []
+    },
+    {
+      "name": "Data Transfer",
+      "synonyms": []
+    },
+    {
+      "name": "Database Design",
+      "synonyms": [
+        "Databases"
+      ]
+    },
+    {
+      "name": "Embedded Systems",
+      "synonyms": []
+    },
+    {
+      "name": "Entrepreneurship",
+      "synonyms": []
+    },
+    {
+      "name": "Ethics",
+      "synonyms": []
+    },
+    {
+      "name": "Functional Programming",
+      "synonyms": [
+        "FP"
+      ]
+    },
+    {
+      "name": "Hardware",
+      "synonyms": []
+    },
+    {
+      "name": "Health IT",
+      "synonyms": []
+    },
+    {
+      "name": "Human-Computer Interaction",
+      "synonyms": [
+        "HCI"
+      ]
+    },
+    {
+      "name": "Innovation",
+      "synonyms": []
+    },
+    {
+      "name": "Machine Learning",
+      "synonyms": [
+        "ML"
+      ]
+    },
+    {
+      "name": "Mathematics",
+      "synonyms": []
+    },
+    {
+      "name": "Mobile Devices",
+      "synonyms": []
+    },
+    {
+      "name": "Modelling",
+      "synonyms": []
+    },
+    {
+      "name": "Networks",
+      "synonyms": []
+    },
+    {
+      "name": "Operating Systems",
+      "synonyms": [
+        "OS"
+      ]
+    },
+    {
+      "name": "Project Management",
+      "synonyms": []
+    },
+    {
+      "name": "Radio Systems",
+      "synonyms": []
+    },
+    {
+      "name": "Real-Time Computing",
+      "synonyms": [
+        "RTC"
+      ]
+    },
+    {
+      "name": "Research Skills",
+      "synonyms": []
+    },
+    {
+      "name": "Robotics",
+      "synonyms": []
+    },
+    {
+      "name": "Security",
+      "synonyms": [
+        "Cybersecurity",
+        "Cyber Security"
+      ]
+    },
+    {
+      "name": "Software Development",
+      "synonyms": []
+    },
+    {
+      "name": "Software Engineering",
+      "synonyms": []
+    },
+    {
+      "name": "Software Testing",
+      "synonyms": []
+    },
+    {
+      "name": "Software Theory",
+      "synonyms": []
+    },
+    {
+      "name": "Statistics",
+      "synonyms": []
+    },
+    {
+      "name": "Version Control",
+      "synonyms": [
+        "Git"
+      ]
+    },
+    {
+      "name": "Web Development",
+      "synonyms": [
+        "HTML",
+        "CSS",
+        "React",
+        "Javascript",
+        "Web Dev",
+        "Websites",
+        "Web Apps"
+      ]
+    }
+  ],
+  "sensitive": false,
+  "fuzzy": 0.8,
+  "examples": [],
+  "pattern": ""
+}

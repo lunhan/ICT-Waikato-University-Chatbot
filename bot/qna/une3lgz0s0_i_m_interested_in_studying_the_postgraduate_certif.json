@@ -1,0 +1,33 @@
+{
+  "id": "une3lgz0s0_i_m_interested_in_studying_the_postgraduate_certif",
+  "data": {
+    "action": "text_redirect",
+    "contexts": [
+      "global"
+    ],
+    "enabled": true,
+    "answers": {
+      "en": [
+        "The PGCert offers **full-time** and **part-time** programmes. \nThe full-time PGCertInfoTech programme is quite intensive and fast-moving.\n\n\nIf you’re completely new to programming, you might want to consider the part-time programme as it offers more time to grasp key concepts. That said, the PGCertInfoTech doesn’t assume prior knowledge – but it does require a committed approach.                                                                                                                                                   Since the part-time delivery is evening-based, it’s suited to students who wish to keep their day jobs while they study."
+      ]
+    },
+    "questions": {
+      "en": [
+        "I’m interested in studying the Postgraduate Certificate in Information Technology. Should I take the full-time or part-time programme?",
+        "Whats the difference between the full-time and part-time programme",
+        "Is the programme full-time.",
+        "I do not have enough time to study full-time.",
+        "can I work part-time",
+        "Can I work full time?",
+        "I have a part-time job that I want to keep.",
+        "I don't have a lot of time but want to complete this certificate",
+        "Can I work parttime",
+        "can I do the PGCert part time?",
+        "can i study part time",
+        "Will PGCert be too intensive?"
+      ]
+    },
+    "redirectFlow": "main.flow.json",
+    "redirectNode": ""
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "next": []
+  },
+  "startNode": "entry",
+  "skillData": {
+    "method": "get",
+    "memory": "session",
+    "url": "https://course-recommender-rb.herokuapp.com/recommend?interests={{session.slots.Interests.value}}&results=6",
+    "variable": "response",
+    "invalidJson": false
+  },
+  "nodes": [
+    {
+      "name": "entry",
+      "onEnter": [
+        "basic-skills/call_api {\"url\":\"https://course-recommender-rb.herokuapp.com/recommend?interests={{session.slots.Interests.value}}&results=6\",\"method\":\"get\",\"memory\":\"session\",\"variable\":\"response\"}"
+      ],
+      "next": [
+        {
+          "condition": "true",
+          "node": "#"
+        }
+      ],
+      "id": "074959"
+    }
+  ]
+}

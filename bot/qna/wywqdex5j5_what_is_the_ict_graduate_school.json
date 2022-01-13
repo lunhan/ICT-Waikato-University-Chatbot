@@ -1,0 +1,26 @@
+{
+  "id": "wywqdex5j5_what_is_the_ict_graduate_school",
+  "data": {
+    "action": "text",
+    "contexts": [
+      "global"
+    ],
+    "enabled": true,
+    "answers": {
+      "en": [
+        "#!builtin_text-YOHPUi"
+      ]
+    },
+    "questions": {
+      "en": [
+        "What is the ICT graduate school?",
+        "What school is this?",
+        "ICT school?",
+        "What is the ICT grad school?",
+        "Where can I find more about ict grad school."
+      ]
+    },
+    "redirectFlow": "",
+    "redirectNode": ""
+  }
+}

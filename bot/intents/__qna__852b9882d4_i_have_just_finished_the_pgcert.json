@@ -1,0 +1,17 @@
+{
+  "name": "__qna__852b9882d4_i_have_just_finished_the_pgcert",
+  "entities": [],
+  "contexts": [
+    "global"
+  ],
+  "utterances": {
+    "en": [
+      "What Masters programme can I study If I have previously completed the PGCert",
+      "After finishing the PGCert what options do I have",
+      "Am I able to do the masters programme after finishing the PGCert",
+      "What masters programme can I take after the PGCert",
+      "I have just finished the PGCert"
+    ]
+  },
+  "slots": []
+}

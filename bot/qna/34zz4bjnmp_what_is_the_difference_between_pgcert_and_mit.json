@@ -1,0 +1,27 @@
+{
+  "id": "34zz4bjnmp_what_is_the_difference_between_pgcert_and_mit",
+  "data": {
+    "action": "text",
+    "contexts": [
+      "global"
+    ],
+    "enabled": true,
+    "answers": {
+      "en": [
+        "The MInfoTech is the more preferred option among students. If you don't meet the entry requirements, the PGCert is a good second option."
+      ]
+    },
+    "questions": {
+      "en": [
+        "What is the difference between PGCert and MIT.",
+        "Which programme is better",
+        "Is PGCert better than minfotech",
+        "is minfotech better than pgcert",
+        "If I had the option for both which is better",
+        "What option do other students choose"
+      ]
+    },
+    "redirectFlow": "",
+    "redirectNode": ""
+  }
+}

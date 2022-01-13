@@ -1,0 +1,31 @@
+{
+  "id": "qsmgkl09w9_will_i_have_to_go_to_both_campuses",
+  "data": {
+    "action": "text",
+    "contexts": [
+      "global"
+    ],
+    "enabled": true,
+    "answers": {
+      "en": [
+        "You’ll be taught at either our Auckland campus or our Hamilton campus, and at the premises of our industry partners."
+      ]
+    },
+    "questions": {
+      "en": [
+        "Will I have to go to both campuses?",
+        "Where would I be studying?",
+        "Would I have to study in the Auckland campus or in Waikato?",
+        "Where do I need to commute to?",
+        "What institution would I be studying in?",
+        "I am far away from Auckland",
+        "I am far away from Waikato",
+        "I'd prefer to study in Auckland",
+        "I'd prefer to study in the Waikato area",
+        "Where do I study"
+      ]
+    },
+    "redirectFlow": "",
+    "redirectNode": ""
+  }
+}

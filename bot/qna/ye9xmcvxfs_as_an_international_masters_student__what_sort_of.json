@@ -1,0 +1,27 @@
+{
+  "id": "ye9xmcvxfs_as_an_international_masters_student__what_sort_of",
+  "data": {
+    "action": "text",
+    "contexts": [
+      "global"
+    ],
+    "enabled": true,
+    "answers": {
+      "en": [
+        "International masters students require a student visa that also allows them to work full-time. This is to allow students to take the mandatory internship component of the masters programme."
+      ]
+    },
+    "questions": {
+      "en": [
+        "As an international masters student, what sort of immigration visa do I need?",
+        "what visa do I need?",
+        "I'm an international student",
+        "visa",
+        "I am currently in Japan and would like to study minfotech",
+        "I am currently overseas"
+      ]
+    },
+    "redirectFlow": "",
+    "redirectNode": ""
+  }
+}

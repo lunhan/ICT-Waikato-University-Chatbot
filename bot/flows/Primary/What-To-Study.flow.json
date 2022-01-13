@@ -1,0 +1,110 @@
+{
+  "version": "0.0.1",
+  "catchAll": {},
+  "startNode": "entry",
+  "description": "",
+  "nodes": [
+    {
+      "id": "44fb5e1a7d",
+      "name": "entry",
+      "onEnter": [
+        "say #!builtin_single-choice-zHYqtu"
+      ],
+      "onReceive": [],
+      "next": [
+        {
+          "condition": "event.payload.payload===\"NON-ICT\"",
+          "node": "PGCert"
+        },
+        {
+          "condition": "event.payload.payload===\"ICT\"",
+          "node": "MInfoTech"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "0e8aef0fd1",
+      "name": "PGCert",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Primary/Programme-Introduction.flow.json#Learn_More_Both"
+        }
+      ],
+      "onEnter": [
+        "Send-Message {\"message\":\"If you don't have a degree in an ICT field, you can consider the PGCert Programme or the 240-Point study option in the MInfoTech Programme.\"}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "f0d55c744b",
+      "name": "MInfoTech",
+      "next": [
+        {
+          "condition": "event.payload.payload===\"240PT\"",
+          "node": "240PT"
+        },
+        {
+          "condition": "event.payload.payload===\"180PT\"",
+          "node": "180PT"
+        },
+        {
+          "condition": "event.payload.payload===\"120PT\"",
+          "node": "120PT"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_single-choice-g72MEf"
+      ],
+      "onReceive": [],
+      "type": "standard"
+    },
+    {
+      "id": "71d5cd80e5",
+      "name": "240PT",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Primary/Programme-Introduction.flow.json#Learn_More_MInfoTech"
+        }
+      ],
+      "onEnter": [
+        "Send-Message {\"message\":\"Based on your responses, you may be eligible for the 240 Point MInfoTech Study Option.\"}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "91be61fc99",
+      "name": "180PT",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Primary/Programme-Introduction.flow.json#Learn_More_MInfoTech"
+        }
+      ],
+      "onEnter": [
+        "Send-Message {\"message\":\"Based on your responses, you may be eligible for the 180 Point MInfoTech Study Option.\"}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "d194747b79",
+      "name": "120PT",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Primary/Programme-Introduction.flow.json#Learn_More_MInfoTech"
+        }
+      ],
+      "onEnter": [
+        "Send-Message {\"message\":\"Based on your responses, you may be eligible for the 120 Point MInfoTech Study Option.\"}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

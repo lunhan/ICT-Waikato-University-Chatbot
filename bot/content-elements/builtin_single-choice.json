@@ -1,0 +1,254 @@
+[
+  {
+    "id": "builtin_single-choice-7kAfWx",
+    "formData": {
+      "dropdownPlaceholder$en": "Select...",
+      "choices$en": [
+        {
+          "title": "Tell me more about PGCert",
+          "value": "Tell me more about PGCert"
+        },
+        {
+          "title": "Tell me more about MInfoTech",
+          "value": "Tell me more about MInfoTech"
+        },
+        {
+          "title": "Recommend Courses",
+          "value": "Recommend Courses"
+        },
+        {
+          "title": "Get Course Information",
+          "value": "Get Course Information"
+        },
+        {
+          "title": "Get more help",
+          "value": "Get more help"
+        }
+      ],
+      "markdown$en": true,
+      "disableFreeText$en": false,
+      "typing$en": true,
+      "text$en": "I'm Sam, the ICT Graduate School Helper!  \n  \nI can help you out with any queries you have. Ask me a question or click one of the buttons below to find out more!   \n  \n**Note:** If you ever get stuck, just type '**help**'!"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-09-21T08:31:02.871Z",
+    "modifiedOn": "2021-09-21T14:43:35.574Z"
+  },
+  {
+    "id": "builtin_single-choice-_3AhSW",
+    "formData": {
+      "dropdownPlaceholder$en": "Select...",
+      "choices$en": [
+        {
+          "title": "Programme Structure for PGCert",
+          "value": "Programme Structure for PGCert"
+        },
+        {
+          "title": "Prerequisites for PGCert",
+          "value": "Entry Requirements for PGCert"
+        },
+        {
+          "title": "Career Opportunites for PGCert",
+          "value": "Career Opportunites for PGCert"
+        },
+        {
+          "title": "Fees for PGCert",
+          "value": "Fees for PGCert"
+        }
+      ],
+      "markdown$en": true,
+      "disableFreeText$en": false,
+      "typing$en": true,
+      "text$en": "Our **Postgraduate Certificate in Information Technology** (PGCertInfoTech) will teach you the specialist skills you need to ignite your career in ICT. If you’ve ever considered working in the ICT sector, the PGCertInfoTech is the programme for you.  \n  \nWhat would you like to learn about?"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-09-21T12:42:05.479Z",
+    "modifiedOn": "2021-09-23T00:44:35.303Z"
+  },
+  {
+    "id": "builtin_single-choice-4hN2Cv",
+    "formData": {
+      "dropdownPlaceholder$en": "Select...",
+      "choices$en": [
+        {
+          "title": "Programme Structure for MInfoTech",
+          "value": "Programme Structure for MInfoTech"
+        },
+        {
+          "title": "Prerequisites for MInfoTech",
+          "value": "Entry Requirements for MInfoTech"
+        },
+        {
+          "title": "Career Opportunites for MInfoTech",
+          "value": "Career Opportunites for MInfoTech"
+        },
+        {
+          "title": "Fees for MInfoTech",
+          "value": "Fees for MInfoTech"
+        },
+        {
+          "title": "Internships for MInfoTech",
+          "value": "Internships for MInfoTech"
+        }
+      ],
+      "markdown$en": true,
+      "disableFreeText$en": false,
+      "typing$en": true,
+      "text$en": "The **Master of Information Technology** (MInfoTech) programme is designed to meet the demand for industry-ready ICT professionals who possess the right mix of technological skills, critical thinking and business awareness to drive innovation in New Zealand.  \n  \nWhat would you like to learn about?"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-09-21T12:42:42.529Z",
+    "modifiedOn": "2021-09-23T00:45:38.524Z"
+  },
+  {
+    "id": "builtin_single-choice-eG4FOJ",
+    "formData": {
+      "dropdownPlaceholder$en": "Select...",
+      "choices$en": [
+        {
+          "title": "Learn about MInfoTech",
+          "value": "Learn about MInfoTech"
+        },
+        {
+          "title": "Learn about PGCert",
+          "value": "Learn about PGCert"
+        }
+      ],
+      "markdown$en": true,
+      "disableFreeText$en": false,
+      "typing$en": true,
+      "text$en": "Sorry, it wasn't clear what programme you want to know about? Please select one of the buttons below."
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-09-21T12:45:25.178Z",
+    "modifiedOn": "2021-09-21T12:45:25.178Z"
+  },
+  {
+    "id": "builtin_single-choice-V-Sut6",
+    "formData": {
+      "dropdownPlaceholder$en": "Select...",
+      "choices$en": [
+        {
+          "title": "Yes",
+          "value": "Yes"
+        },
+        {
+          "title": "No",
+          "value": "No"
+        }
+      ],
+      "markdown$en": true,
+      "disableFreeText$en": false,
+      "typing$en": true,
+      "text$en": "Would you like to learn more about the MInfoTech Programme?"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-09-21T12:50:35.385Z",
+    "modifiedOn": "2021-09-21T16:07:43.910Z"
+  },
+  {
+    "id": "builtin_single-choice-5A06vk",
+    "formData": {
+      "dropdownPlaceholder$en": "Select...",
+      "choices$en": [
+        {
+          "title": "Yes",
+          "value": "Yes"
+        },
+        {
+          "title": "No",
+          "value": "No"
+        }
+      ],
+      "markdown$en": true,
+      "disableFreeText$en": false,
+      "typing$en": true,
+      "text$en": "Would you like to learn more about the PGCert Programme?"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-09-21T12:52:21.228Z",
+    "modifiedOn": "2021-09-21T16:07:53.238Z"
+  },
+  {
+    "id": "builtin_single-choice-zHYqtu",
+    "formData": {
+      "dropdownPlaceholder$en": "Select...",
+      "choices$en": [
+        {
+          "title": "I DON'T have a Degree in an ICT related field",
+          "value": "non-ict"
+        },
+        {
+          "title": "I DO have a Degree in an ICT related field",
+          "value": "ict"
+        }
+      ],
+      "markdown$en": true,
+      "disableFreeText$en": false,
+      "typing$en": true,
+      "text$en": "To find out what programme is perfect for you, I need to know more about you first. \n \nWhich of these options describes you best? "
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-09-21T15:43:50.584Z",
+    "modifiedOn": "2021-10-19T11:21:31.568Z"
+  },
+  {
+    "id": "builtin_single-choice-g72MEf",
+    "formData": {
+      "dropdownPlaceholder$en": "Select...",
+      "choices$en": [
+        {
+          "title": "Honours Degree or PostGrad Diploma. Completed 75 points in at least 400-level courses, with 45 points in 700-level courses.",
+          "value": "120PT"
+        },
+        {
+          "title": "Completed 75 points in at least 300-level courses.",
+          "value": "180PT"
+        },
+        {
+          "title": "Completed the PGCert Programme",
+          "value": "180PT"
+        },
+        {
+          "title": "None of the above",
+          "value": "240PT"
+        }
+      ],
+      "markdown$en": true,
+      "disableFreeText$en": false,
+      "typing$en": true,
+      "text$en": "If you have ICT related degree, then the Master of Information Technology (MInfoTech) is perfect for you!\n\nTo determine which pathway is appropriate for you, select the button below that best describes you. \n\n**Note:** The MInfoTech programme requires a 4.5 GPA.",
+      "isDropdown$en": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-09-21T15:47:27.045Z",
+    "modifiedOn": "2021-09-21T16:02:04.747Z"
+  },
+  {
+    "id": "builtin_single-choice-O1w6Zo",
+    "formData": {
+      "dropdownPlaceholder$en": "Select...",
+      "choices$en": [
+        {
+          "title": "Learn more about MInfoTech",
+          "value": "Learn more about MInfoTech"
+        },
+        {
+          "title": "Learn more about PGCert",
+          "value": "Learn more about PGCert"
+        },
+        {
+          "title": "Exit",
+          "value": "Exit"
+        }
+      ],
+      "markdown$en": true,
+      "disableFreeText$en": true,
+      "typing$en": true,
+      "text$en": "Want to find out more?"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-10-19T11:23:32.460Z",
+    "modifiedOn": "2021-10-19T11:23:32.460Z"
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "name": "__qna__dd2e73ll4b_can_i_study_online",
+  "entities": [],
+  "contexts": [
+    "global"
+  ],
+  "utterances": {
+    "en": [
+      "Can I study Online",
+      "Can I study the PGCert Online",
+      "I am currently overseas, can I study the PGCert online",
+      "Any online options",
+      "Do I need to be in Auckland",
+      "online study option",
+      "can i take pgcert from overseas",
+      "can i take minfotech from overseas",
+      "can i study from abroad",
+      "im not in new zealand",
+      "im from china",
+      "I dont live in New Zealand",
+      "Im not from NZ can I study"
+    ]
+  },
+  "slots": []
+}

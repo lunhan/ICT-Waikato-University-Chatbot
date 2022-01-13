@@ -1,0 +1,19 @@
+{
+  "version": "0.0.1",
+  "catchAll": {},
+  "startNode": "entry",
+  "description": "",
+  "nodes": [
+    {
+      "id": "93c640e461",
+      "name": "entry",
+      "onEnter": [
+        "Intent-To-Choice {\"topic\":\"Career Opportunities\",\"pgCertId\":\"#!builtin_text-1x1YMF\",\"mInfoTechId\":\"#!builtin_text-Zgc31T\"}",
+        "Reset-Slots {}"
+      ],
+      "onReceive": null,
+      "next": [],
+      "type": "standard"
+    }
+  ]
+}

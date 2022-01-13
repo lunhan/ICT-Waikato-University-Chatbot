@@ -1,0 +1,69 @@
+{
+  "name": "course-information",
+  "utterances": {
+    "en": [
+      "Get Course Information",
+      "[INFOSYS](Department)",
+      "[COMPSCI](Department)",
+      "[MEDSCI](Department)",
+      "[SOFTENG](Department)",
+      "[MEDSCI](Department) [142](CourseCode)",
+      "[Electrical](Department) [722](CourseCode)",
+      "[COMPSCI](Department) [732](CourseCode)",
+      "[STATS](Department) [762](CourseCode)",
+      "[COMPSYS](Department) [725](CourseCode)",
+      "[SE](Department) [761](CourseCode):",
+      "[HLTHINFO](Department) [728](CourseCode):",
+      "[OPSMGT](Department) [111](CourseCode):",
+      "[SCIENT](Department) [111](CourseCode):",
+      "[COMPSYS](Department) [723](CourseCode): Embedded Systems Design",
+      "Course information for [COMPSCI](Department)",
+      "Please give me information about [CS](Department) [720](CourseCode).",
+      "How is [COMPSCI](Department) [732](CourseCode)",
+      "Course Information",
+      "Information",
+      "What is the content of [COMPSCI](Department)[751](CourseCode)?",
+      "Give me more information about a course",
+      "Can I take [CS](Department) [720](CourseCode) in semester one.",
+      "Give me information about [COMPSYS](Department) [701](CourseCode).",
+      "How is [GLMI](Department) [709](CourseCode)",
+      "What is [MEDSCI](Department) [142](CourseCode) like.",
+      "Tell me about [SOFTENG](Department) [754](CourseCode)",
+      "Tell me about [SOFTENG](Department)[754](CourseCode)",
+      "Where can I find more course information?",
+      "Where can I see all the courses I am able to take?",
+      "Tell me more about [COMPSCI](Department) [718](CourseCode).",
+      "What is [STATS](Department) [762](CourseCode) like.",
+      "What is in [COMPSCI](Department) [760](CourseCode)",
+      "What is [COMPSCI](Department)[752](CourseCode)",
+      "Find more about [infosys](Department) [701](CourseCode)",
+      "Can you tell me more about COMPSCI 765.",
+      "Can you please tell me about the course [COMPSCI](Department)[723](CourseCode)",
+      "What are the papers in [COMPSCI](Department)",
+      "[STATS](Department) [779](CourseCode): Professional Skills for Statisticians",
+      "[COMPSYS](Department)",
+      "[ELECTENG](Department)"
+    ]
+  },
+  "slots": [
+    {
+      "id": "ls5-FrwSeKOCc36OydFl_",
+      "name": "Department",
+      "entities": [
+        "Department"
+      ],
+      "color": 1
+    },
+    {
+      "id": "A9Y7odBRQG3FWboleEZ85",
+      "name": "CourseCode",
+      "entities": [
+        "CourseCode"
+      ],
+      "color": 2
+    }
+  ],
+  "contexts": [
+    "global"
+  ]
+}

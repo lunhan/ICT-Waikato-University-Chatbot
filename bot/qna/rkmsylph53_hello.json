@@ -1,0 +1,56 @@
+{
+  "id": "rkmsylph53_hello",
+  "data": {
+    "questions": {
+      "en": [
+        "Hello",
+        "Hi",
+        "Hey",
+        "Heya",
+        "hey there",
+        "bonjour",
+        "sup'",
+        "Heyyyy",
+        "Greetings",
+        "Salutations",
+        "kia ora",
+        "Sup",
+        "How are you",
+        "How is your day",
+        "ni hao",
+        "Good morning",
+        "Hope you are having a good day",
+        "Yo"
+      ],
+      "fr": [
+        "Bonjour",
+        "Salut",
+        "Allo",
+        "Cou cou",
+        "Bonsoir",
+        "Bon matin",
+        "Bonne matinée",
+        "Bonjour toi",
+        "Salut vous",
+        "Bonjour le robot"
+      ]
+    },
+    "answers": {
+      "en": [
+        "Hello! Nice to meet you!",
+        "Hello. Hope you're having a good day!",
+        "Hello there!"
+      ],
+      "fr": [
+        "Bonjour, c'est un plaisir de vous rencontrer!"
+      ]
+    },
+    "redirectFlow": "",
+    "redirectNode": "",
+    "action": "text",
+    "enabled": true,
+    "contexts": [
+      "global"
+    ]
+  }
+}

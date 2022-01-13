@@ -1,0 +1,33 @@
+{
+  "id": "p3imd30edh_as_a_master_of_information_technology_student__do",
+  "data": {
+    "action": "text",
+    "contexts": [
+      "global"
+    ],
+    "enabled": true,
+    "answers": {
+      "en": [
+        "#!builtin_text-807_uM"
+      ]
+    },
+    "questions": {
+      "en": [
+        "Internships for MInfoTech",
+        "Are there any internships available?",
+        "Internships?",
+        "Do I need to arrange my own internship?",
+        "Am I required to perform an internship?",
+        "As a Master of Information Technology student, do I need to arrange my own internship?",
+        "Is it guaranteed to get an internship at the end of a programme.",
+        "What happens if I don’t get an internship placement in a company?",
+        "What is the internships for the masters",
+        "How much is the internship",
+        "MInfoTech internships",
+        "Will I get paid for doing my internship?"
+      ]
+    },
+    "redirectFlow": "",
+    "redirectNode": ""
+  }
+}

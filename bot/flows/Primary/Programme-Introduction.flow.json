@@ -1,0 +1,147 @@
+{
+  "version": "0.0.1",
+  "catchAll": {},
+  "startNode": "entry",
+  "description": "",
+  "nodes": [
+    {
+      "id": "e74d92389a",
+      "name": "entry",
+      "onEnter": [
+        "Entity-To-Slot {\"entityName\":\"Programme\"}"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "event.state.session.slots.Programme.value === 'MInfoTech'",
+          "node": "MInfoTech_Intro"
+        },
+        {
+          "condition": "event.state.session.slots.Programme.value === 'PGCert'",
+          "node": "PGCert_Intro"
+        },
+        {
+          "condition": "true",
+          "node": "Unclear"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "c41661507d",
+      "name": "MInfoTech_Intro",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_single-choice-4hN2Cv",
+        "Reset-Slots {}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "04e50967e6",
+      "name": "PGCert_Intro",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_single-choice-_3AhSW",
+        "Reset-Slots {}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "6d4d1f9d9b",
+      "name": "Unclear",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_single-choice-eG4FOJ",
+        "Reset-Slots {}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "skill-cffc20",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "Learn_More_MInfoTech",
+      "flow": "skills/choice-cffc20.flow.json",
+      "next": [
+        {
+          "caption": "User picked [Yes]",
+          "condition": "temp['skill-choice-ret-r1w32y7eyz'] == \"Yes\"",
+          "node": "MInfoTech_Intro"
+        },
+        {
+          "caption": "User picked [No]",
+          "condition": "temp['skill-choice-ret-r1w32y7eyz'] == \"No\"",
+          "node": ""
+        },
+        {
+          "caption": "On failure",
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "skill-39d8e0",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "Learn_More_PGCert",
+      "flow": "skills/choice-39d8e0.flow.json",
+      "next": [
+        {
+          "caption": "User picked [Yes]",
+          "condition": "temp['skill-choice-ret-2nf58izc4b'] == \"Yes\"",
+          "node": "PGCert_Intro"
+        },
+        {
+          "caption": "User picked [No]",
+          "condition": "temp['skill-choice-ret-2nf58izc4b'] == \"No\"",
+          "node": ""
+        },
+        {
+          "caption": "On failure",
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "skill-c874a3",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "Learn_More_Both",
+      "flow": "skills/choice-c874a3.flow.json",
+      "next": [
+        {
+          "caption": "User picked [Learn m...]",
+          "condition": "temp['skill-choice-ret-dg8j47sg8d'] == \"Learn more about MInfoTech\"",
+          "node": "MInfoTech_Intro"
+        },
+        {
+          "caption": "User picked [Learn m...]",
+          "condition": "temp['skill-choice-ret-dg8j47sg8d'] == \"Learn more about PGCert\"",
+          "node": "PGCert_Intro"
+        },
+        {
+          "caption": "User picked [Exit]",
+          "condition": "temp['skill-choice-ret-dg8j47sg8d'] == \"Exit\"",
+          "node": "END"
+        },
+        {
+          "caption": "On failure",
+          "condition": "true",
+          "node": "END"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    }
+  ]
+}

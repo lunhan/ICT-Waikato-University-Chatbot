@@ -1,0 +1,33 @@
+{
+  "name": "__qna__52n1pcumpy_goodbye",
+  "entities": [],
+  "contexts": [
+    "global"
+  ],
+  "utterances": {
+    "en": [
+      "Goodbye",
+      "Thanks",
+      "Have a good day",
+      "Thanks for the help",
+      "See you",
+      "Catch you later",
+      "Bye",
+      "Thanks, goodbye",
+      "seeya",
+      "laters",
+      "Have a good one",
+      "cya",
+      "ttyl",
+      "chow",
+      "adios",
+      "Until next time",
+      "good night",
+      "see you tomorrow",
+      "Talk to you later",
+      "bye for now",
+      "see you next time"
+    ]
+  },
+  "slots": []
+}

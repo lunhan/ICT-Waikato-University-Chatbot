@@ -1,0 +1,28 @@
+{
+  "id": "ir0wd3mzjo_faqs",
+  "data": {
+    "action": "text",
+    "contexts": [
+      "global"
+    ],
+    "enabled": true,
+    "answers": {
+      "en": [
+        "Here is the ICT Graduate school [FAQs](https://www.ictgraduateschool.ac.nz/faqs/) page."
+      ]
+    },
+    "questions": {
+      "en": [
+        "FAQs",
+        "FAQ",
+        "Frequently Asked Questions",
+        "What are some frequently Asked questions",
+        "Can you direct me to the FAQ page please",
+        "I want to know some FAQ",
+        "What are some common questions that are asked."
+      ]
+    },
+    "redirectFlow": "",
+    "redirectNode": ""
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "programme",
+  "name": "Programme",
+  "type": "list",
+  "occurrences": [
+    {
+      "name": "PGCert",
+      "synonyms": [
+        "PostGrad",
+        "Post Graduate",
+        "Certificate",
+        "Post Graduate Certificate",
+        "Postgraduate Certificate in Information Technology",
+        "PGCertInfoTech",
+        "PGCertIT"
+      ]
+    },
+    {
+      "name": "MInfoTech",
+      "synonyms": [
+        "Masters",
+        "MIT",
+        "Master of InfoTech",
+        "Master of Information Technology",
+        "Master of Information Tech",
+        "Master of Tech",
+        "Master of IT",
+        "mit"
+      ]
+    },
+    {
+      "name": "Both",
+      "synonyms": [
+        "I don't know",
+        "Im not sure",
+        "You choose",
+        "Why not Both",
+        "Both of Them",
+        "two Programmes"
+      ]
+    }
+  ],
+  "sensitive": false,
+  "fuzzy": 0.8,
+  "examples": [],
+  "pattern": ""
+}

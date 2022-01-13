@@ -1,0 +1,17 @@
+{
+  "name": "__qna__rygukup3wx_hello__my_name_is_andrew",
+  "entities": [],
+  "contexts": [
+    "global"
+  ],
+  "utterances": {
+    "en": [
+      "Hello, my name is Andrew",
+      "My name is Charlie",
+      "My name is Reeve",
+      "My name is Ethan",
+      "My name is Daniel"
+    ]
+  },
+  "slots": []
+}

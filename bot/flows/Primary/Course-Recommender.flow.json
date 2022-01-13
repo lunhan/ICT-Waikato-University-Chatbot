@@ -1,0 +1,111 @@
+{
+  "version": "0.0.1",
+  "catchAll": {},
+  "startNode": "entry",
+  "description": "",
+  "nodes": [
+    {
+      "id": "9721c914d6",
+      "name": "entry",
+      "onEnter": [
+        "Multiple-Entities-To-Slot {\"entityName\":\"Interests\"}"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": "Get_Interests"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "12b58cc245",
+      "name": "Wait_Message",
+      "next": [
+        {
+          "condition": "event.state.session.slots.notFound === 1",
+          "node": "Too_Many_Fails"
+        },
+        {
+          "condition": "true",
+          "node": "Recommender_API"
+        }
+      ],
+      "onEnter": [
+        "Multiple-Entities-To-Slot {\"entityName\":\"Interests\"}",
+        "Send-Message {\"message\":\"Please wait while I process your message...\"}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "skill-a91fd2",
+      "type": "skill-call",
+      "skill": "CallAPI",
+      "name": "Recommender_API",
+      "flow": "skills/CallAPI-a91fd2.flow.json",
+      "next": [
+        {
+          "caption": "On success",
+          "condition": "temp.valid",
+          "node": "Success"
+        },
+        {
+          "caption": "On failure",
+          "condition": "!temp.valid",
+          "node": ""
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "f60360ccc6",
+      "name": "Success",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-ehXRIk",
+        "Reset-Slots {}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "skill-ad43b3",
+      "type": "skill-call",
+      "skill": "Slot",
+      "name": "Get_Interests",
+      "flow": "skills/Slot-ad43b3.flow.json",
+      "next": [
+        {
+          "caption": "On extracted",
+          "condition": "temp.extracted == \"true\"",
+          "node": "Wait_Message"
+        },
+        {
+          "caption": "On not found",
+          "condition": "temp.notExtracted == \"true\"",
+          "node": "Wait_Message"
+        },
+        {
+          "caption": "On already extracted",
+          "condition": "temp.alreadyExtracted == \"true\"",
+          "node": "Wait_Message"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "6b36f283d1",
+      "name": "Too_Many_Fails",
+      "next": [],
+      "onEnter": [
+        "Send-Message {\"message\":\"Exiting Course Recommender.\"}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

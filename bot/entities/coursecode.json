@@ -1,0 +1,15 @@
+{
+  "id": "coursecode",
+  "name": "CourseCode",
+  "type": "pattern",
+  "occurrences": [],
+  "sensitive": false,
+  "fuzzy": 0.8,
+  "examples": [
+    "725",
+    "701",
+    "740"
+  ],
+  "pattern": "\\d\\d\\d",
+  "matchCase": true
+}

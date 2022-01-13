@@ -1,0 +1,36 @@
+{
+  "name": "prerequisites",
+  "utterances": {
+    "en": [
+      "What are the prerequisites for [MInfoTech](Programme)?",
+      "What are the prerequisites?",
+      "What qualifications are required?",
+      "What are you looking for in a potential student?",
+      "Who can apply to the ICT grad school.",
+      "Can anyone join?",
+      "are there any prerequisite courses I need to take",
+      "are there any prerequisites courses I need to take the [MInfotech](Programme) programme",
+      "what prerequisites do I need to take the [MInfoTech](Programme) programme",
+      "prerequisites",
+      "prerequisites please",
+      "entry requirements",
+      "What are [PGCert](Programme) entry requirements",
+      "Does [MIT](Programme) have entry requirements",
+      "Do i need a degree to study the [MInfoTech](Programme)?",
+      "What are the entry requirements for [MIT](Programme)"
+    ]
+  },
+  "slots": [
+    {
+      "id": "P-A8TMsw96vKvRNzgq2mO",
+      "name": "Programme",
+      "entities": [
+        "Programme"
+      ],
+      "color": 1
+    }
+  ],
+  "contexts": [
+    "global"
+  ]
+}

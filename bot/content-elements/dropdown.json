@@ -1,0 +1,447 @@
+[
+  {
+    "id": "dropdown-LYx35b",
+    "formData": {
+      "buttonText$en": "Submit",
+      "placeholderText$en": "Select a choice",
+      "displayInKeyboard$en": true,
+      "markdown$en": true,
+      "typing$en": true,
+      "message$en": "**Course Information:**\nI'll help you find out more about a course!  \n  \n\nTo start off, what department is your course from? Select an option from the dropdown.",
+      "options$en": [
+        {
+          "label": "COMPSCI",
+          "value": ""
+        },
+        {
+          "label": "COMPSYS",
+          "value": ""
+        },
+        {
+          "label": "ELECTENG",
+          "value": ""
+        },
+        {
+          "label": "INFOSYS",
+          "value": ""
+        },
+        {
+          "label": "SOFTENG",
+          "value": ""
+        },
+        {
+          "label": "STATS",
+          "value": ""
+        },
+        {
+          "label": "HLTHINFO",
+          "value": ""
+        },
+        {
+          "label": "GLMI",
+          "value": ""
+        },
+        {
+          "label": "OPSMGT",
+          "value": ""
+        },
+        {
+          "label": "SCIENT",
+          "value": ""
+        },
+        {
+          "label": "MEDSCI",
+          "value": ""
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-09-21T08:48:10.627Z",
+    "modifiedOn": "2021-09-21T11:06:58.805Z"
+  },
+  {
+    "id": "dropdown-1Lt2fo",
+    "formData": {
+      "buttonText$en": "Submit",
+      "placeholderText$en": "Select Interests",
+      "displayInKeyboard$en": true,
+      "markdown$en": true,
+      "typing$en": true,
+      "message$en": "**Course Recommender:**  \n  \nAs a MInfoTech student, there are many courses you can select in your degree.  \n  \nTo recommend the best courses for you, let me know your interests using the dropdown below.  \n  \n**Note:** Only your first three choices will be considered.",
+      "options$en": [
+        {
+          "label": "Accounting",
+          "value": ""
+        },
+        {
+          "label": "Algorithms",
+          "value": ""
+        },
+        {
+          "label": "Artificial Intelligence",
+          "value": ""
+        },
+        {
+          "label": "Backend Programming",
+          "value": ""
+        },
+        {
+          "label": "Big Data",
+          "value": ""
+        },
+        {
+          "label": "Business Analysis",
+          "value": ""
+        },
+        {
+          "label": "Cloud Computing",
+          "value": ""
+        },
+        {
+          "label": "Computer Graphics",
+          "value": ""
+        },
+        {
+          "label": "Concurrency",
+          "value": ""
+        },
+        {
+          "label": "Critical Thinking",
+          "value": ""
+        },
+        {
+          "label": "Cryptography",
+          "value": ""
+        },
+        {
+          "label": "Data Analysis",
+          "value": ""
+        },
+        {
+          "label": "Data Mining",
+          "value": ""
+        },
+        {
+          "label": "Data Science",
+          "value": ""
+        },
+        {
+          "label": "Data Structures",
+          "value": ""
+        },
+        {
+          "label": "Data Transfer",
+          "value": ""
+        },
+        {
+          "label": "Database Design",
+          "value": ""
+        },
+        {
+          "label": "Embedded Systems",
+          "value": ""
+        },
+        {
+          "label": "Entrepreneurship",
+          "value": ""
+        },
+        {
+          "label": "Ethics",
+          "value": ""
+        },
+        {
+          "label": "Functional Programming",
+          "value": ""
+        },
+        {
+          "label": "Hardware",
+          "value": ""
+        },
+        {
+          "label": "Health IT",
+          "value": ""
+        },
+        {
+          "label": "Human-Computer Interaction",
+          "value": ""
+        },
+        {
+          "label": "Innovation",
+          "value": ""
+        },
+        {
+          "label": "Machine Learning",
+          "value": ""
+        },
+        {
+          "label": "Mathematics",
+          "value": ""
+        },
+        {
+          "label": "Mobile Devices",
+          "value": ""
+        },
+        {
+          "label": "Modelling",
+          "value": ""
+        },
+        {
+          "label": "Networks",
+          "value": ""
+        },
+        {
+          "label": "Operating Systems",
+          "value": ""
+        },
+        {
+          "label": "Project Management",
+          "value": ""
+        },
+        {
+          "label": "Radio Systems",
+          "value": ""
+        },
+        {
+          "label": "Real-Time Computing",
+          "value": ""
+        },
+        {
+          "label": "Research Skills",
+          "value": ""
+        },
+        {
+          "label": "Robotics",
+          "value": ""
+        },
+        {
+          "label": "Security",
+          "value": ""
+        },
+        {
+          "label": "Software Development",
+          "value": ""
+        },
+        {
+          "label": "Software Engineering",
+          "value": ""
+        },
+        {
+          "label": "Software Testing",
+          "value": ""
+        },
+        {
+          "label": "Software Theory",
+          "value": ""
+        },
+        {
+          "label": "Statistics",
+          "value": ""
+        },
+        {
+          "label": "Version Control",
+          "value": ""
+        },
+        {
+          "label": "Web Development",
+          "value": ""
+        }
+      ],
+      "allowMultiple$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-09-22T08:30:47.348Z",
+    "modifiedOn": "2021-09-22T08:38:15.538Z"
+  },
+  {
+    "id": "dropdown-BuNKDL",
+    "formData": {
+      "buttonText$en": "Submit",
+      "placeholderText$en": "Select a choice",
+      "displayInKeyboard$en": true,
+      "markdown$en": true,
+      "typing$en": true,
+      "message$en": "Invalid selection. Please use the dropdown!\n  \n**Note:** Only your first three choices will be considered.",
+      "options$en": [
+        {
+          "label": "Accounting",
+          "value": ""
+        },
+        {
+          "label": "Algorithms",
+          "value": ""
+        },
+        {
+          "label": "Artificial Intelligence",
+          "value": ""
+        },
+        {
+          "label": "Backend Programming",
+          "value": ""
+        },
+        {
+          "label": "Big Data",
+          "value": ""
+        },
+        {
+          "label": "Business Analysis",
+          "value": ""
+        },
+        {
+          "label": "Cloud Computing",
+          "value": ""
+        },
+        {
+          "label": "Computer Graphics",
+          "value": ""
+        },
+        {
+          "label": "Concurrency",
+          "value": ""
+        },
+        {
+          "label": "Critical Thinking",
+          "value": ""
+        },
+        {
+          "label": "Cryptography",
+          "value": ""
+        },
+        {
+          "label": "Data Analysis",
+          "value": ""
+        },
+        {
+          "label": "Data Mining",
+          "value": ""
+        },
+        {
+          "label": "Data Science",
+          "value": ""
+        },
+        {
+          "label": "Data Structures",
+          "value": ""
+        },
+        {
+          "label": "Data Transfer",
+          "value": ""
+        },
+        {
+          "label": "Database Design",
+          "value": ""
+        },
+        {
+          "label": "Embedded Systems",
+          "value": ""
+        },
+        {
+          "label": "Entrepreneurship",
+          "value": ""
+        },
+        {
+          "label": "Ethics",
+          "value": ""
+        },
+        {
+          "label": "Functional Programming",
+          "value": ""
+        },
+        {
+          "label": "Hardware",
+          "value": ""
+        },
+        {
+          "label": "Health IT",
+          "value": ""
+        },
+        {
+          "label": "Human-Computer Interaction",
+          "value": ""
+        },
+        {
+          "label": "Innovation",
+          "value": ""
+        },
+        {
+          "label": "Machine Learning",
+          "value": ""
+        },
+        {
+          "label": "Mathematics",
+          "value": ""
+        },
+        {
+          "label": "Mobile Devices",
+          "value": ""
+        },
+        {
+          "label": "Modelling",
+          "value": ""
+        },
+        {
+          "label": "Networks",
+          "value": ""
+        },
+        {
+          "label": "Operating Systems",
+          "value": ""
+        },
+        {
+          "label": "Project Management",
+          "value": ""
+        },
+        {
+          "label": "Radio Systems",
+          "value": ""
+        },
+        {
+          "label": "Real-Time Computing",
+          "value": ""
+        },
+        {
+          "label": "Research Skills",
+          "value": ""
+        },
+        {
+          "label": "Robotics",
+          "value": ""
+        },
+        {
+          "label": "Security",
+          "value": ""
+        },
+        {
+          "label": "Software Development",
+          "value": ""
+        },
+        {
+          "label": "Software Engineering",
+          "value": ""
+        },
+        {
+          "label": "Software Testing",
+          "value": ""
+        },
+        {
+          "label": "Software Theory",
+          "value": ""
+        },
+        {
+          "label": "Statistics",
+          "value": ""
+        },
+        {
+          "label": "Version Control",
+          "value": ""
+        },
+        {
+          "label": "Web Development",
+          "value": ""
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-09-22T08:39:23.375Z",
+    "modifiedOn": "2021-09-22T08:39:23.375Z"
+  }
+]

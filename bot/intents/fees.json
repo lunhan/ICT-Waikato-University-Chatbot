@@ -1,0 +1,53 @@
+{
+  "name": "fees",
+  "utterances": {
+    "en": [
+      "Fees for [PGCert](Programme)",
+      "Fees for [MInfoTech](Programme)",
+      "How much is the [MInfoTech](Programme)",
+      "How much is the [PGCert](Programme)",
+      "How much does it cost?",
+      "How much money do I need to pay?",
+      "What is the financial situation?",
+      "What are the fees",
+      "How much are the fees",
+      "I don't have a lot of money",
+      "cost of [MInfotech](Programme)",
+      "What are the costs involved",
+      "How much is enrolment.",
+      "How much are the fees for the [PGCert](Programme)",
+      "How much do the programmes cost",
+      "fees",
+      "How much does the programmes cost",
+      "How much is the [MInfoTech](Programme) program if you're studying online?",
+      "What are the costs for [MInfoTech](Programme)",
+      "Are there any scholarships that I could apply for to support my studies?",
+      "Scholarships?",
+      "Is there any financial support available?",
+      "Any financial security?",
+      "can I get a scholarship for ICT grad school?",
+      "I want to get a scholarship to support my studies",
+      "I have no money and want a scholarship",
+      "I want a scholarship",
+      "are there any scholarships avaliable?",
+      "I want to apply for a scholarship",
+      "can i get a scholarship for ICT grad school?",
+      "Does [MInfoTech](Programme) have any scholarships?",
+      "How do I get a scholarship for [MInfoTech](Programme)",
+      "Can I apply for a [MInfoTech](Programme) scholarship?"
+    ]
+  },
+  "slots": [
+    {
+      "id": "5Cj8eSvtl-Sbk9kQiHAMx",
+      "name": "Programme",
+      "entities": [
+        "Programme"
+      ],
+      "color": 1
+    }
+  ],
+  "contexts": [
+    "global"
+  ]
+}

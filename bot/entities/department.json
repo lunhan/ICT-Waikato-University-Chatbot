@@ -1,0 +1,64 @@
+{
+  "id": "department",
+  "name": "Department",
+  "type": "list",
+  "occurrences": [
+    {
+      "name": "COMPSCI",
+      "synonyms": [
+        "CS"
+      ]
+    },
+    {
+      "name": "COMPSYS",
+      "synonyms": [
+        "SYS"
+      ]
+    },
+    {
+      "name": "ELECTENG",
+      "synonyms": [
+        "ECE",
+        "ELECTRICAL"
+      ]
+    },
+    {
+      "name": "INFOSYS",
+      "synonyms": []
+    },
+    {
+      "name": "SOFTENG",
+      "synonyms": [
+        "SE"
+      ]
+    },
+    {
+      "name": "STATS",
+      "synonyms": []
+    },
+    {
+      "name": "HLTHINFO",
+      "synonyms": []
+    },
+    {
+      "name": "GLMI",
+      "synonyms": []
+    },
+    {
+      "name": "OPSMGT",
+      "synonyms": []
+    },
+    {
+      "name": "SCIENT",
+      "synonyms": []
+    },
+    {
+      "name": "MEDSCI",
+      "synonyms": []
+    }
+  ],
+  "sensitive": false,
+  "fuzzy": 0.8,
+  "examples": [],
+  "pattern": ""
+}

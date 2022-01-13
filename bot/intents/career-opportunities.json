@@ -1,0 +1,48 @@
+{
+  "name": "career-opportunities",
+  "utterances": {
+    "en": [
+      "Career pathways for [PGCert](Programme)",
+      "What career opportunities do I have for [PGCert](Programme).",
+      "Career pathways.",
+      "What will this programme do for my future.",
+      "What pay can be expected?",
+      "What career opportunities are available for the [MInfoTech](Programme).",
+      "Where will this take me?",
+      "What will be my occupation?",
+      "What profession will I get into?",
+      "What jobs will I get?",
+      "occupations",
+      "line of work",
+      "profession",
+      "What can I do after completing [PGCert](Programme)?",
+      "What lines of work can I expect to get a job after completing this program?",
+      "Does the MInfoTech have better career opportunities than the PGCert.",
+      "Career oppportunities for [PGCert](Programme).",
+      "Will this programme help me get a job in software development.",
+      "What career could I get after completing an [MIT](Programme)",
+      "Whats involved in becoming a cybersecurity specialist",
+      "Where will this degree take me",
+      "What future can I see my self in",
+      "What will I gain from ICT grad school.",
+      "What's my starting pay",
+      "Will I have a good life after this programme",
+      "Will I be able to support the kids",
+      "Where can the [PGCert](Programme) lead me.",
+      "What career opportunities are there by studying the [MIT](Programme)?"
+    ]
+  },
+  "slots": [
+    {
+      "id": "Wt4boCwtFXzE-pPz7blE2",
+      "name": "Programme",
+      "entities": [
+        "Programme"
+      ],
+      "color": 1
+    }
+  ],
+  "contexts": [
+    "global"
+  ]
+}

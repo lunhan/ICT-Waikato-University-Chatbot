@@ -1,0 +1,37 @@
+{
+  "id": "81qnluo65c_i_m_looking_ahead_and_expecting_to_take_the_postgr",
+  "data": {
+    "action": "text",
+    "contexts": [
+      "global"
+    ],
+    "enabled": true,
+    "answers": {
+      "en": [
+        "To prepare for taking the **PGCert**, getting a little experience in programming would be very useful. You could self-study a basic programming course in a language like Python or Java. There are lots of resources on-line for this. If you are studying at Auckland, you could consider taking the introductory programming course COMPSCI 101."
+      ]
+    },
+    "questions": {
+      "en": [
+        "I’m looking ahead and expecting to take the Postgraduate Certificate in Information Technology next year. Is there anything I can do to prepare?",
+        "How do I prepare for PGCert?",
+        "What skills are we expected to know?",
+        "Recommended Materials",
+        "Do I need to know programming",
+        "Python",
+        "Javascript",
+        "Java",
+        "C++",
+        "any coding preparation",
+        "How do I prepare for the coding portions",
+        "How do I prepare",
+        "Do I need prior knowledge",
+        "Do I need coding experience",
+        "I don't know how to code",
+        "Do I need to know coding"
+      ]
+    },
+    "redirectFlow": "",
+    "redirectNode": ""
+  }
+}

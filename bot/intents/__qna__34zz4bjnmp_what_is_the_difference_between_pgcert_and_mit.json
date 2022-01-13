@@ -1,0 +1,18 @@
+{
+  "name": "__qna__34zz4bjnmp_what_is_the_difference_between_pgcert_and_mit",
+  "entities": [],
+  "contexts": [
+    "global"
+  ],
+  "utterances": {
+    "en": [
+      "What is the difference between PGCert and MIT.",
+      "Which programme is better",
+      "Is PGCert better than minfotech",
+      "is minfotech better than pgcert",
+      "If I had the option for both which is better",
+      "What option do other students choose"
+    ]
+  },
+  "slots": []
+}

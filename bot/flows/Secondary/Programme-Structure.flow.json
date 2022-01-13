@@ -1,0 +1,19 @@
+{
+  "version": "0.0.1",
+  "catchAll": {},
+  "startNode": "entry",
+  "description": "",
+  "nodes": [
+    {
+      "id": "c928ee3861",
+      "name": "entry",
+      "onEnter": [
+        "Intent-To-Choice {\"topic\":\"Programme Structure\",\"pgCertId\":\"#!builtin_text-e0Z2pk\",\"mInfoTechId\":\"#!builtin_text-tVdO5k\"}",
+        "Reset-Slots {}"
+      ],
+      "onReceive": null,
+      "next": [],
+      "type": "standard"
+    }
+  ]
+}

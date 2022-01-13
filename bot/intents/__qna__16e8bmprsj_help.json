@@ -1,0 +1,38 @@
+{
+  "name": "__qna__16e8bmprsj_help",
+  "entities": [],
+  "contexts": [
+    "global"
+  ],
+  "utterances": {
+    "en": [
+      "Help",
+      "Assistance",
+      "What can you do?",
+      "What are you?",
+      "Who are you?",
+      "What is your purpose?",
+      "Hi I need help",
+      "Please help me",
+      "I need help",
+      "I don't know what I'm doing",
+      "What can I do",
+      "What can you do",
+      "what can I learn at ICT Grad school",
+      "What programmes do you offer at the ICT Grad school.",
+      "Where do I start",
+      "What programmes are offered",
+      "how can you help me?",
+      "how do I use this?",
+      "Show me a list of your features",
+      "What options can you help me with?",
+      "Tell me about your capabilities",
+      "What things can you do?",
+      "Can you give me a menu of your functionalities?",
+      "Can i see a list of your skills?",
+      "I'm stuck",
+      "I'm not sure what to say"
+    ]
+  },
+  "slots": []
+}

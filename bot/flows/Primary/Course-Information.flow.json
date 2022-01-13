@@ -1,0 +1,61 @@
+{
+  "version": "0.0.1",
+  "catchAll": {},
+  "startNode": "entry",
+  "description": "",
+  "nodes": [
+    {
+      "id": "0cb9c5631d",
+      "name": "entry",
+      "onEnter": [
+        "Entity-To-Slot {\"entityName\":\"Department\"}",
+        "Entity-To-Slot {\"entityName\":\"CourseCode\"}"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": "Get_Department"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "skill-33fb93",
+      "type": "skill-call",
+      "skill": "Slot",
+      "name": "Get_Department",
+      "flow": "skills/Slot-33fb93.flow.json",
+      "next": [
+        {
+          "caption": "On extracted",
+          "condition": "temp.extracted == \"true\"",
+          "node": "Retrieve_Course_Codes"
+        },
+        {
+          "caption": "On not found",
+          "condition": "temp.notExtracted == \"true\"",
+          "node": ""
+        },
+        {
+          "caption": "On already extracted",
+          "condition": "temp.alreadyExtracted == \"true\"",
+          "node": "Retrieve_Course_Codes"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "436765e725",
+      "name": "Retrieve_Course_Codes",
+      "next": [],
+      "onEnter": [
+        "Course-Information {\"department\":\"{{event.state.session.slots.Department.value}}\"}",
+        "Reset-Slots {}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

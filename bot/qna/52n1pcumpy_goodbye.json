@@ -1,0 +1,43 @@
+{
+  "id": "52n1pcumpy_goodbye",
+  "data": {
+    "action": "text",
+    "contexts": [
+      "global"
+    ],
+    "enabled": true,
+    "answers": {
+      "en": [
+        "Have a great day. See you again!",
+        "C U later! :) Bye."
+      ]
+    },
+    "questions": {
+      "en": [
+        "Goodbye",
+        "Thanks",
+        "Have a good day",
+        "Thanks for the help",
+        "See you",
+        "Catch you later",
+        "Bye",
+        "Thanks, goodbye",
+        "seeya",
+        "laters",
+        "Have a good one",
+        "cya",
+        "ttyl",
+        "chow",
+        "adios ",
+        "Until next time",
+        "good night",
+        "see you tomorrow",
+        "Talk to you later",
+        "bye for now",
+        "see you next time"
+      ]
+    },
+    "redirectFlow": "",
+    "redirectNode": ""
+  }
+}

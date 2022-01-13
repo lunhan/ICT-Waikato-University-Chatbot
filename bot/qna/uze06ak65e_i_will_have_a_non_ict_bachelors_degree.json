@@ -1,0 +1,26 @@
+{
+  "id": "uze06ak65e_i_will_have_a_non_ict_bachelors_degree",
+  "data": {
+    "action": "text_redirect",
+    "contexts": [
+      "global"
+    ],
+    "enabled": false,
+    "answers": {
+      "en": [
+        "If you want to learn the basics of IT, the Postgraduate Certificate in Information Technology (PGCert) is perfect for you! "
+      ]
+    },
+    "questions": {
+      "en": [
+        "I DON'T have a Bachelors Degree in an ICT related field",
+        "I have a degree in arts",
+        "I have a degree in Economics",
+        "I have a degree in business",
+        "I do/will have a non-ict bachelors degree"
+      ]
+    },
+    "redirectFlow": "Programme-Introduction.flow.json",
+    "redirectNode": "PGCert"
+  }
+}

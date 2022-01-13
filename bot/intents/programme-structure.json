@@ -1,0 +1,66 @@
+{
+  "name": "programme-structure",
+  "utterances": {
+    "en": [
+      "What is the Programme structure for [PGCert](Programme).",
+      "How is the [Postgraduate certificate](Programme) structured?",
+      "How many points do I need to complete?",
+      "How long is the [MInfoTech](Programme)?",
+      "What time commitments need to be made?",
+      "What is the Programme structure for [MInfoTech](Programme).",
+      "How is the [Masters](Programme) Programme structured?",
+      "What do I need to complete in order to obtain the [MInfoTech](Programme) qualification",
+      "What do I need to complete to earn the [PGCert](Programme).",
+      "What are the options available with the [MInfoTech](Programme).",
+      "How can I structure my degree.",
+      "What is the structure of my degree",
+      "What options do I have on structuring my degree",
+      "How is the degree structured",
+      "What requirements do I need to fulfil in order to graduate",
+      "Programme structure [pgcert](Programme).",
+      "Programme structure for the [pgcert](Programme)",
+      "Programme structure for [both](Programme)",
+      "Programme structure",
+      "Please tell me the Programme structure for [pgcert](Programme)",
+      "What do I need to do in the [PGCert](Programme)",
+      "What courses do I need to complete in the [PGCert](Programme)",
+      "How long does the degree take?",
+      "How long do I study for",
+      "How long is [Master of Information Technology](Programme)",
+      "What is the duration of [Master of Information Technology](Programme)",
+      "What is the duration of [Post Graduate Certificate](Programme)",
+      "How many years?",
+      "How long",
+      "how many years does ICT grad school take",
+      "How long do I need to study for",
+      "How long are the [two Programmes](Programme)",
+      "What time commitments need to be made",
+      "When can I expect to graduate",
+      "I want my degree now",
+      "When can I get my degree",
+      "When can I start working in IT",
+      "When do I graduate",
+      "How long does the [MInfoTech](Programme) go on for",
+      "How long will the [PGCert](Programme) course take",
+      "Can I finish the degree in under a year?",
+      "How fast can I graduate",
+      "What will I be learning",
+      "What courses do [PGCert](Programme) students take?",
+      "What courses do we take in the [PG Cert](Programme)?",
+      "How many weeks is the [PG Cert](Programme)?"
+    ]
+  },
+  "slots": [
+    {
+      "id": "Q0lj-s7WvIlJqCaWXb8IH",
+      "name": "Programme",
+      "entities": [
+        "Programme"
+      ],
+      "color": 1
+    }
+  ],
+  "contexts": [
+    "global"
+  ]
+}

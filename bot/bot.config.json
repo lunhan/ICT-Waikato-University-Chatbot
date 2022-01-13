@@ -1,0 +1,61 @@
+{
+  "locked": false,
+  "disabled": false,
+  "private": false,
+  "details": {
+    "website": "",
+    "phoneNumber": "",
+    "emailAddress": "",
+    "termsConditions": "",
+    "privacyPolicy": "",
+    "avatarUrl": "/api/v1/bots/BOT_ID_PLACEHOLDER/media/nh9rb7h853a2p4d8rzys-1_lyyXmbeoK5JiIBNCnzzjjg.png",
+    "coverPictureUrl": ""
+  },
+  "$schema": "../../bot.config.schema.json",
+  "description": "Chatbot for the ICT Graduate School",
+  "active": true,
+  "version": "12.26.3",
+  "author": "Botpress, Inc.",
+  "license": "AGPL-3.0",
+  "imports": {
+    "modules": [],
+    "incomingMiddleware": [],
+    "outgoingMiddleware": [],
+    "contentTypes": [
+      "builtin_action-button",
+      "builtin_audio",
+      "builtin_card",
+      "builtin_carousel",
+      "dropdown",
+      "builtin_file",
+      "builtin_image",
+      "builtin_location",
+      "builtin_single-choice",
+      "builtin_text",
+      "builtin_video"
+    ]
+  },
+  "dialog": {
+    "timeoutInterval": "5m"
+  },
+  "logs": {
+    "expiration": "1 week"
+  },
+  "defaultLanguage": "en",
+  "languages": [
+    "en"
+  ],
+  "id": "bot-2",
+  "name": "Sam",
+  "pipeline_status": {
+    "current_stage": {
+      "id": "prod",
+      "promoted_on": "2021-10-19T11:20:43.597Z",
+      "promoted_by": "system"
+    }
+  },
+  "messaging": {
+    "id": "3f4ac65a-a311-47f9-af86-b74caa705050",
+    "token": "9SNPbU9P07X4S0eXUpIQ+6xGHnGj4gvFx5j2fD6AqqMAYHm5zC7p4XpeARI5BXoJizB0JmTXqB972uDTQWMQYNkZ"
+  }
+}
