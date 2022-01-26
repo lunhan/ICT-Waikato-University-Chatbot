@@ -21,7 +21,8 @@
       "Do I need prior knowledge",
       "Do I need coding experience",
       "I don't know how to code",
-      "Do I need to know coding"
+      "Do I need to know coding",
+      "What if I do not have any experience in IT related degrees?"
     ]
   },
   "slots": []

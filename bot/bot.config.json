@@ -45,17 +45,17 @@
   "languages": [
     "en"
   ],
-  "id": "bot-2",
-  "name": "Sam",
+  "id": "sam",
+  "name": "Sam (sam)",
   "pipeline_status": {
     "current_stage": {
       "id": "prod",
-      "promoted_on": "2021-10-19T11:20:43.597Z",
+      "promoted_on": "2022-01-25T05:06:07.839Z",
       "promoted_by": "system"
     }
   },
   "messaging": {
-    "id": "3f4ac65a-a311-47f9-af86-b74caa705050",
-    "token": "9SNPbU9P07X4S0eXUpIQ+6xGHnGj4gvFx5j2fD6AqqMAYHm5zC7p4XpeARI5BXoJizB0JmTXqB972uDTQWMQYNkZ"
+    "id": "aeb4e45e-9142-493d-8fd7-6b26457b09bf",
+    "token": "2fdea6d3-2194-4dad-bf86-1504fdc53a6a.r+7qzG/MEvXjPdSHeNp63k08zY+jFhskMjR4MzICIU/KSV6jLt0LxWN197s6RImIhI6whj4d02kubDaGFLMWBg3s"
   }
 }
