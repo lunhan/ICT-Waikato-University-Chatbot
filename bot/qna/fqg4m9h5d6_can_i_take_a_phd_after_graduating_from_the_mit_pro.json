@@ -1,0 +1,31 @@
+{
+  "id": "fqg4m9h5d6_can_i_take_a_phd_after_graduating_from_the_mit_pro",
+  "data": {
+    "action": "text",
+    "contexts": [
+      "global"
+    ],
+    "enabled": true,
+    "answers": {
+      "en": [
+        "Unfortunately, we do not have a dedicated PhD programme for the MIT program.<br>\n\nLearn more about [PhD for Computer Science](https://www.waikato.ac.nz/study/qualifications/doctor-of-philosophy/computer-science)"
+      ]
+    },
+    "questions": {
+      "en": [
+        "Can I study a PhD for Computer Science",
+        "Phd degree",
+        "study a PhD",
+        "How is Phd programme for computer science",
+        "May I do a Phd programme after graduation",
+        "Can I take a PhD after graduating from the MIT programme",
+        "Does it have a PhD degree for CS",
+        "Information about Computer Science PhD",
+        "Is there any further programme after MIT programme",
+        "After finishing the MIT programme what options do I have"
+      ]
+    },
+    "redirectFlow": "",
+    "redirectNode": ""
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "nmp6q3bz2y_do_i_need_to_find_my_internship_on_my_own",
+  "data": {
+    "action": "text",
+    "contexts": [
+      "global"
+    ],
+    "enabled": true,
+    "answers": {
+      "en": [
+        "Our staff will help you acquire your internship experience from the companies that we\nhave partnered with.\n\nHowever, if you already have an internship provided or if you want to\nget it on your own, you are welcomed to use that as an experience. If you plan to do so,\nplease contact us beforehand"
+      ]
+    },
+    "questions": {
+      "en": [
+        "How can I find my internship company",
+        "Can I get an internship on my own?",
+        "May I use my own provided internship?",
+        "Will the university offer internship",
+        "Do I need to find my internship on my own?",
+        "Internships",
+        "What do I prepare for internship",
+        "Are there any internships available?",
+        "What happens if I don’t get an internship placement in a company?",
+        "am I required to contact any conpany for the internship?"
+      ]
+    },
+    "redirectFlow": "",
+    "redirectNode": ""
+  }
+}

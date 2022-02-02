@@ -1,0 +1,32 @@
+{
+  "id": "cj9rfc7bjk_what_if_i_am_not_currently_in_new_zealand",
+  "data": {
+    "action": "text",
+    "contexts": [
+      "global"
+    ],
+    "enabled": true,
+    "answers": {
+      "en": [
+        "We have provided an online study option! Moreover, there is a 20% tuition fee discount during your online study!\nTo understand more about offshore study please visit: https://www.waikato.ac.nz/campaigns/international/internationaloffshore"
+      ]
+    },
+    "questions": {
+      "en": [
+        "What if I am not currently in New Zealand?",
+        "Not in New Zealand",
+        "I'm overseas",
+        "Overseas study",
+        "Cannot back to New Zealand",
+        "I am in ",
+        "People outside New Zealand",
+        "I'm not in NZ",
+        "I'm in somewhere else",
+        "Study outside NZ",
+        "Online study"
+      ]
+    },
+    "redirectFlow": "",
+    "redirectNode": ""
+  }
+}

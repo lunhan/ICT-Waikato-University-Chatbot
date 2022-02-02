@@ -3,8 +3,8 @@
     "id": "builtin_text-buoG6H",
     "formData": {
       "markdown$en": true,
-      "typing$en": false,
-      "text$en": "Welcome to the ICT Graduate School Website!  \n  \nThis initiative helps meet the increasing demand for industry-ready ICT graduates.  \n  \nWe offer two programmes, the Postgraduate Certificate of Information Technology (**PGCert**), and the Master of Information Technology (**MInfoTech**)."
+      "text$en": "Welcome to the ICT Graduate School Website!  \n  \nThis initiative helps meet the increasing demand for industry-ready ICT graduates.  \n  \nWe offer two programmes, the Postgraduate Certificate of Information Technology (**PGCert**), and the Master of Information Technology (**MInfoTech**).",
+      "typing$en": false
     },
     "createdBy": "admin",
     "createdOn": "2021-09-21T08:29:33.427Z",
@@ -13,8 +13,8 @@
   {
     "id": "builtin_text-MJEmUJ",
     "formData": {
-      "text$en": "Invalid Selection. Please try again and use the dropdown!",
       "markdown$en": true,
+      "text$en": "Invalid Selection. Please try again and use the dropdown!",
       "typing$en": true
     },
     "createdBy": "admin",
@@ -24,8 +24,8 @@
   {
     "id": "builtin_text-iiHqrY",
     "formData": {
-      "text$en": "Sorry, please try again!",
       "markdown$en": true,
+      "text$en": "Sorry, please try again!",
       "typing$en": true
     },
     "createdBy": "admin",
@@ -35,8 +35,8 @@
   {
     "id": "builtin_text-ehXRIk",
     "formData": {
-      "text$en": "{{event.state.session.response.body}}",
       "markdown$en": true,
+      "text$en": "{{event.state.session.response.body}}",
       "typing$en": true
     },
     "createdBy": "admin",
@@ -47,8 +47,8 @@
     "id": "builtin_text-4wYusf",
     "formData": {
       "markdown$en": true,
-      "typing$en": true,
-      "text$en": "**Fees and Scholarships for PGCert:**  \n  \nFor information regarding fees and scholarships, including Domestic and International Student costs, visit the site below:\n  \n[Learn More](https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/postgraduate-certificate-in-information-technology-pgcertinfotech.html#section1)  \n  \nThe ICT Graduate School also offers an award for Maori and Pacific students who wish to study PGCert.  \n  \n[More details are available here](https://www.auckland.ac.nz/en/study/scholarships-and-awards/find-a-scholarship/auckland-ict-graduate-school-pgcertinfotech-award-1011-sci.html)"
+      "text$en": "**Fees and Scholarships for PGCert:**  \n  \nFor information regarding fees and scholarships, including Domestic and International Student costs, visit the site below:\n  \n[Learn More](https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/postgraduate-certificate-in-information-technology-pgcertinfotech.html#section1)  \n  \nThe ICT Graduate School also offers an award for Maori and Pacific students who wish to study PGCert.  \n  \n[More details are available here](https://www.auckland.ac.nz/en/study/scholarships-and-awards/find-a-scholarship/auckland-ict-graduate-school-pgcertinfotech-award-1011-sci.html)",
+      "typing$en": true
     },
     "createdBy": "admin",
     "createdOn": "2021-09-21T13:34:41.653Z",
@@ -58,8 +58,8 @@
     "id": "builtin_text-QvLeM2",
     "formData": {
       "markdown$en": true,
-      "typing$en": true,
-      "text$en": "**Fees and Scholarships for MInfoTech:**  \n  \nFor information regarding fees and scholarships, including Domestic and International Student costs, visit the site below:\n  \n[Learn More](https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/master-of-information-technology-minfotech.html#section1)"
+      "text$en": "**Fees and Scholarships for MInfoTech:**  \n  \nFor information regarding fees and scholarships, including Domestic and International Student costs, visit the site below:\n  \n[Learn More](https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/master-of-information-technology-minfotech.html#section1)",
+      "typing$en": true
     },
     "createdBy": "admin",
     "createdOn": "2021-09-21T13:34:51.142Z",
@@ -69,8 +69,8 @@
     "id": "builtin_text-tVdO5k",
     "formData": {
       "markdown$en": true,
-      "typing$en": true,
-      "text$en": "**Programme Structure for MInfoTech**\n  \nThe MInfoTech offers three options for students from different study backgrounds.  \n    \nIf studying full time, the programme takes between 2-4 Semesters to complete.   \nThis depends on whether you take the 120, 180 or 240 point study option.   \n  \nIf you're studying part-time, this can vary.  \n  \n[Learn More](https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/master-of-information-technology-minfotech.html#section1) "
+      "text$en": "**Programme Structure for MInfoTech**\n  \nThe MInfoTech offers three options for students from different study backgrounds.  \n    \nIf studying full time, the programme takes between 2-4 Semesters to complete.   \nThis depends on whether you take the 120, 180 or 240 point study option.   \n  \nIf you're studying part-time, this can vary.  \n  \n[Learn More](https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/master-of-information-technology-minfotech.html#section1) ",
+      "typing$en": true
     },
     "createdBy": "admin",
     "createdOn": "2021-09-21T13:56:29.245Z",
@@ -80,8 +80,8 @@
     "id": "builtin_text-e0Z2pk",
     "formData": {
       "markdown$en": true,
-      "typing$en": true,
-      "text$en": "**Programme Structure for PGCert**\n  \nThe PGCertInfoTech consists of two 30-point courses in which you'll take practical, hands-on and lab-based courses.  \n* [**COMPSCI 718:** Programming for Industry](https://courseoutline.auckland.ac.nz/dco/course/COMPSCI/718/)\n* [**COMPSCI 719:** Programming with Web Technologies](https://courseoutline.auckland.ac.nz/dco/course/COMPSCI/719/)  \nFull-time and part-time study options are available, including a [part-time online programme](https://www.online.auckland.ac.nz/postgraduate-programmes/science/postgraduate-certificate-in-information-technology/) – ideal for students who would like to work while they study.   \n   \nIf studying full time, the PGCert takes one Semester to complete. Otherwise, it can vary.  \n   \n[Learn more](https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/postgraduate-certificate-in-information-technology-pgcertinfotech.html#section1) "
+      "text$en": "**Programme Structure for PGCert**\n  \nThe PGCertInfoTech consists of two 30-point courses in which you'll take practical, hands-on and lab-based courses.  \n* [**COMPSCI 718:** Programming for Industry](https://courseoutline.auckland.ac.nz/dco/course/COMPSCI/718/)\n* [**COMPSCI 719:** Programming with Web Technologies](https://courseoutline.auckland.ac.nz/dco/course/COMPSCI/719/)  \nFull-time and part-time study options are available, including a [part-time online programme](https://www.online.auckland.ac.nz/postgraduate-programmes/science/postgraduate-certificate-in-information-technology/) – ideal for students who would like to work while they study.   \n   \nIf studying full time, the PGCert takes one Semester to complete. Otherwise, it can vary.  \n   \n[Learn more](https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/postgraduate-certificate-in-information-technology-pgcertinfotech.html#section1) ",
+      "typing$en": true
     },
     "createdBy": "admin",
     "createdOn": "2021-09-21T13:56:58.963Z",
@@ -91,8 +91,8 @@
     "id": "builtin_text-1x1YMF",
     "formData": {
       "markdown$en": true,
-      "typing$en": true,
-      "text$en": "**Career Opportunities for PGCert**  \n  \nPGCertInfoTech graduates are employed in roles as diverse as database developers and data security specialists. You can look forward to joining them as you ignite your career in the ICT industry.  \n\nJobs related to this Programme:\n* Communications specialist\n* Cybersecurity support\n* Business analyst\n* Database support\n* Internet/multimedia developer\n* Network support\n* Systems administrator\n* Technical consultant"
+      "text$en": "**Career Opportunities for PGCert**  \n  \nPGCertInfoTech graduates are employed in roles as diverse as database developers and data security specialists. You can look forward to joining them as you ignite your career in the ICT industry.  \n\nJobs related to this Programme:\n* Communications specialist\n* Cybersecurity support\n* Business analyst\n* Database support\n* Internet/multimedia developer\n* Network support\n* Systems administrator\n* Technical consultant",
+      "typing$en": true
     },
     "createdBy": "admin",
     "createdOn": "2021-09-21T14:06:45.151Z",
@@ -102,8 +102,8 @@
     "id": "builtin_text-Zgc31T",
     "formData": {
       "markdown$en": true,
-      "typing$en": true,
-      "text$en": "**Career Opportunities for MInfoTech**  \n  \nAs a MInfoTech graduate, you will add value to New Zealand's vibrant, dynamic ICT sector as you acquire advanced, specialist technological skills; gain industry experience in the development and commercialisation of products and services; and understand the demands and expectations of a professional workplace.  \n  \nJobs related to this programme:\n* Cloud computing specialist\n* Cybersecurity specialist\n* Data scientist\n* Games developer\n* Network developer and support\n* Software architect\n* Software developer\n* Team manager"
+      "text$en": "**Career Opportunities for MInfoTech**  \n  \nAs a MInfoTech graduate, you will add value to New Zealand's vibrant, dynamic ICT sector as you acquire advanced, specialist technological skills; gain industry experience in the development and commercialisation of products and services; and understand the demands and expectations of a professional workplace.  \n  \nJobs related to this programme:\n* Cloud computing specialist\n* Cybersecurity specialist\n* Data scientist\n* Games developer\n* Network developer and support\n* Software architect\n* Software developer\n* Team manager",
+      "typing$en": true
     },
     "createdBy": "admin",
     "createdOn": "2021-09-21T14:08:36.353Z",
@@ -113,8 +113,8 @@
     "id": "builtin_text-gTnLpC",
     "formData": {
       "markdown$en": true,
-      "typing$en": true,
-      "text$en": "**Prerequisites for PGCert**  \n  \nYou must have completed a bachelors degree in any discipline with a GPA of 4.0.  \n  \nA basic knowledge of programming would be very useful however isn't necessary.  \n  \n[Learn More](https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/postgraduate-certificate-in-information-technology-pgcertinfotech.html#section1)"
+      "text$en": "**Prerequisites for PGCert**  \n  \nYou must have completed a bachelors degree in any discipline with a GPA of 4.0.  \n  \nA basic knowledge of programming would be very useful however isn't necessary.  \n  \n[Learn More](https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/postgraduate-certificate-in-information-technology-pgcertinfotech.html#section1)",
+      "typing$en": true
     },
     "createdBy": "admin",
     "createdOn": "2021-09-21T14:23:58.249Z",
@@ -124,8 +124,8 @@
     "id": "builtin_text-xsYUcs",
     "formData": {
       "markdown$en": true,
-      "typing$en": true,
-      "text$en": "**Prerequisites for MInfoTech**  \n  \nThe MInfoTech Programme offers three Study Options for students from different study backgrounds who would like to advance their ICT career.  \n   \n**Note:** All Study Options require the completion of an undegraduate degree with a GPA of 4.5.  \n  \n**240 Point**:    \nAn undergraduate degree in any discipline.\n  \n**180 Point**:    \nA Bachelors degree in an IT-related field. 75 points must be at Stage III or above, with at least 45 points in an IT-related field. \nYou can also gain entry by completing the PGCertInfoTech. \n  \n**120 Point**:    \nA Bachelors (Honours) degree in an IT-related field. 75 points must be at above Stage III, with at least 45 700-level points in an IT-related field.  \n  \n[Learn More](https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/master-of-information-technology-minfotech.html#section1)"
+      "text$en": "**Prerequisites for MInfoTech**  \n  \nThe MInfoTech Programme offers three Study Options for students from different study backgrounds who would like to advance their ICT career.  \n   \n**Note:** All Study Options require the completion of an undegraduate degree with a GPA of 4.5.  \n  \n**240 Point**:    \nAn undergraduate degree in any discipline.\n  \n**180 Point**:    \nA Bachelors degree in an IT-related field. 75 points must be at Stage III or above, with at least 45 points in an IT-related field. \nYou can also gain entry by completing the PGCertInfoTech. \n  \n**120 Point**:    \nA Bachelors (Honours) degree in an IT-related field. 75 points must be at above Stage III, with at least 45 700-level points in an IT-related field.  \n  \n[Learn More](https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/master-of-information-technology-minfotech.html#section1)",
+      "typing$en": true
     },
     "createdBy": "admin",
     "createdOn": "2021-09-21T14:30:45.622Z",
@@ -135,8 +135,8 @@
     "id": "builtin_text-807_uM",
     "formData": {
       "markdown$en": true,
-      "typing$en": true,
-      "text$en": "**Internships for MInfoTech**  \n  \nOur industry internships are an integral component of the Master of Information Technology (MInfoTech) programme. They provide a unique opportunity for you to work on a real-world project, facilitated by your employer and supported by the University.\n \nThe University will arrange the internship, taking into account your background and career interests. If you have a relationship with a company, or you’d like to suggest a particular company we are happy to consider that.\n \n[Learn More](https://www.ictgraduateschool.ac.nz/internships/for-students/)"
+      "text$en": "**Internships for MInfoTech**  \n  \nOur industry internships are an integral component of the Master of Information Technology (MInfoTech) programme. They provide a unique opportunity for you to work on a real-world project, facilitated by your employer and supported by the University.\n \nThe University will arrange the internship, taking into account your background and career interests. If you have a relationship with a company, or you’d like to suggest a particular company we are happy to consider that.\n \n[Learn More](https://www.ictgraduateschool.ac.nz/internships/for-students/)",
+      "typing$en": true
     },
     "createdBy": "admin",
     "createdOn": "2021-09-21T14:39:30.106Z",
@@ -145,8 +145,8 @@
   {
     "id": "builtin_text-YOHPUi",
     "formData": {
-      "text$en": "The ICT industry is one of the fastest growing industries in the world. As a result there's a huge demand for industry-ready ICT graduates who have the right mix of technological skills and business awareness.  \n  \nThe ICT Graduate School offers postgraduate study in Information Technology\nthat aims to develop smart, industry-ready ICT graduates who will meet this\nneed. \n\n[Learn More](https://www.ictgraduateschool.ac.nz/)",
       "markdown$en": true,
+      "text$en": "The ICT industry is one of the fastest growing industries in the world. As a result there's a huge demand for industry-ready ICT graduates who have the right mix of technological skills and business awareness.  \n  \nThe ICT Graduate School offers postgraduate study in Information Technology\nthat aims to develop smart, industry-ready ICT graduates who will meet this\nneed. \n\n[Learn More](https://www.ictgraduateschool.ac.nz/)",
       "typing$en": true
     },
     "createdBy": "admin",
@@ -156,12 +156,79 @@
   {
     "id": "builtin_text-iNOtZ2",
     "formData": {
-      "text$en": "If you want more help, you can contact the ICT Graduate School directly.   \n  \nWe'll aim to get back to you as soon as possible.  \n  \n[Contact Us](https://www.ictgraduateschool.ac.nz/contact-us/).",
       "markdown$en": true,
+      "text$en": "If you want more help, you can contact the ICT Graduate School directly.   \n  \nWe'll aim to get back to you as soon as possible.  \n  \n[Contact Us](https://www.ictgraduateschool.ac.nz/contact-us/).",
       "typing$en": true
     },
     "createdBy": "admin",
     "createdOn": "2021-09-21T14:51:20.618Z",
     "modifiedOn": "2021-09-21T14:51:20.618Z"
+  },
+  {
+    "id": "builtin_text-Www0Ok",
+    "formData": {
+      "markdown$en": true,
+      "text$en": "### Programme for MInfoTech\n\nThe MInfoTech (**120 points**) has:\n\n- 1 compulsory paper: [CSMAX570](https://www.waikato.ac.nz/study/papers/CSMAX570)\n- 1 placement paper: [CSMAX596](https://www.waikato.ac.nz/study/papers/CSMAX596)\n- 45 points from elective papers: 500 level papers listed in [footnotes](https://www.waikato.ac.nz/study/qualifications/master-of-information-technology#tab-611340)\n\n[Learn More](https://www.waikato.ac.nz/study/qualifications/master-of-information-technology#tab-611340)",
+      "typing$en": true,
+      "variations$en": []
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-01-25T08:41:11.154Z",
+    "modifiedOn": "2022-01-25T22:06:32.812Z"
+  },
+  {
+    "id": "builtin_text-I6GHhx",
+    "formData": {
+      "markdown$en": true,
+      "text$en": "### Programme for PGCertInfoTech\n\nThe PGCertInfoTech has:\n- 1 trimester long (60 points)\n- 2 compulsory papers: [COMPX568](https://www.waikato.ac.nz/study/papers/COMPX568) & [COMPX569](https://www.waikato.ac.nz/study/papers/COMPX569)\n\n[Learn More](https://www.waikato.ac.nz/study/qualifications/postgraduate-certificate-in-information-technology#otp-degree-planner) ",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-01-25T10:05:41.960Z",
+    "modifiedOn": "2022-01-25T10:07:57.431Z"
+  },
+  {
+    "id": "builtin_text-bsI6Rm",
+    "formData": {
+      "markdown$en": true,
+      "text$en": "### Programme for MInfoTech\n\nThe MInfoTech (**180 points**) has:\n\n- 30 points from compulsory papers: [CSMAX570](https://www.waikato.ac.nz/study/papers/CSMAX570), [ENGME585](https://www.waikato.ac.nz/study/papers/ENGME585) or other approved papers\n- 1 placement paper: [CSMAX596](https://www.waikato.ac.nz/study/papers/CSMAX596)\n- 90 points from elective papers: 500 level papers listed in [footnotes](https://www.waikato.ac.nz/study/qualifications/master-of-information-technology#tab-611342)\n\n[Learn More](https://www.waikato.ac.nz/study/qualifications/master-of-information-technology#tab-611342)",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-01-25T10:11:23.895Z",
+    "modifiedOn": "2022-01-27T02:05:49.029Z"
+  },
+  {
+    "id": "builtin_text-5ZGt1t",
+    "formData": {
+      "markdown$en": true,
+      "text$en": "### Programme for MInfoTech\n\nThe MInfoTech (**240 points**) has:\n\n- 2 compulsory papers (60 points): [COMPX568](https://www.waikato.ac.nz/study/papers/COMPX568) & [COMPX569](https://www.waikato.ac.nz/study/papers/COMPX569)\n- 30 points from compulsory papers: [CSMAX570](https://www.waikato.ac.nz/study/papers/CSMAX570), [ENGME585](https://www.waikato.ac.nz/study/papers/ENGME585) or other approved papers\n- 1 placement paper: [CSMAX596](https://www.waikato.ac.nz/study/papers/CSMAX596)\n- 90 points from elective papers: 500 level papers listed in [footnotes](https://www.waikato.ac.nz/study/qualifications/master-of-information-technology#tab-611340)\n\n[Learn More](https://www.waikato.ac.nz/study/qualifications/master-of-information-technology#tab-611344)",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-01-25T22:06:05.713Z",
+    "modifiedOn": "2022-01-27T02:05:20.416Z"
+  },
+  {
+    "id": "builtin_text-0T3YAv",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "**Prerequisites for PGCert**  \n  \nStudents with a Bachelors degree or equivalent in any discipline are eligible to apply for the Postgraduate Certificate in information Technology.\n\nApplications should be made well in advance of a start in Trimester A (March) or in Trimester C (November).\n\nFor enrolment questions, you can email cms@waikato.ac.nz."
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-02-01T13:14:36.604Z",
+    "modifiedOn": "2022-02-01T13:14:36.604Z"
+  },
+  {
+    "id": "builtin_text-qMlgin",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "**Prerequisites for MInfoTech**  \n  \nFor admission, students will need to have completed a relevant bachelor's degree, normally in Computer Science. You will need an average of at least B in 80 points of 300 level or above including at least 40 points in Computer Science or a related field.\n\nStudents with a non-ICT undergraduate degree are encouraged to apply for the Postgraduate Certificate in Information Technology (PGCertInfoTech).\n   \n**Note:** International students will need to have an IELTS score of at least 6.5 overall (with no less than 6.0 in any band). Email international@waikato.ac.nz for more information or help with the application process.\n \n[Learn More About PGCertInfoTech](https://www.waikato.ac.nz/study/qualifications/postgraduate-certificate-in-information-technology)"
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-02-01T13:16:28.043Z",
+    "modifiedOn": "2022-02-01T13:16:28.043Z"
   }
 ]
