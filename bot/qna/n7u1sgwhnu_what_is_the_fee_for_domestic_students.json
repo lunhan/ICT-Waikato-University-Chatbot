@@ -1,0 +1,27 @@
+{
+  "id": "n7u1sgwhnu_what_is_the_fee_for_domestic_students",
+  "data": {
+    "action": "text",
+    "contexts": [
+      "global"
+    ],
+    "enabled": true,
+    "answers": {
+      "en": [
+        "About $7,218 - $8,797 per year, if it is your first year study we have fees-free study!\nTo understand more about fees-free study: https://www.waikato.ac.nz/study/costs/free-fees\n\n"
+      ]
+    },
+    "questions": {
+      "en": [
+        "What is the fee for domestic students?\n",
+        "Domestic Fee",
+        "Tuition Fee for domestic students",
+        "How much it cost for domestic students?",
+        "How much for the program for domestic student?",
+        "Study fee for domestic student"
+      ]
+    },
+    "redirectFlow": "",
+    "redirectNode": ""
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "paper",
+  "utterances": {
+    "en": [
+      "[COMPX569](paper)",
+      "[ENGME585](paper)",
+      "For [COMPX569](paper)",
+      "What can I learn from [CSMAX596](paper) paper",
+      "Tell me more about [CSMAX596](paper)"
+    ]
+  },
+  "slots": [
+    {
+      "id": "RDDmBq-z-cNX3RJ2tWpVA",
+      "name": "paper",
+      "entities": [
+        "Paper"
+      ],
+      "color": 1
+    }
+  ],
+  "contexts": [
+    "global"
+  ]
+}

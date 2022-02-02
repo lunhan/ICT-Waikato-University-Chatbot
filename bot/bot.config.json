@@ -45,17 +45,17 @@
   "languages": [
     "en"
   ],
-  "id": "sam",
-  "name": "Sam (sam)",
+  "id": "bot_ict",
+  "name": "bot_ict",
   "pipeline_status": {
     "current_stage": {
       "id": "prod",
-      "promoted_on": "2022-01-25T05:06:07.839Z",
+      "promoted_on": "2022-02-01T22:33:06.307Z",
       "promoted_by": "system"
     }
   },
   "messaging": {
-    "id": "aeb4e45e-9142-493d-8fd7-6b26457b09bf",
-    "token": "2fdea6d3-2194-4dad-bf86-1504fdc53a6a.r+7qzG/MEvXjPdSHeNp63k08zY+jFhskMjR4MzICIU/KSV6jLt0LxWN197s6RImIhI6whj4d02kubDaGFLMWBg3s"
+    "id": "4a2ef89d-ea54-4af3-abee-d55772ee4f17",
+    "token": "uSXDx9iOqCHrDrOe/3prcG8j03ZebEg5k5jDRuqiVnsTlgAyNwPksG6hoVPLR3bjs13XkRavUi+11H3QIWVCZ5mv"
   }
 }

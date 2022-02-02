@@ -17,7 +17,9 @@
         "I have a degree in arts",
         "I have a degree in Economics",
         "I have a degree in business",
-        "I do/will have a non-ict bachelors degree"
+        "I do/will have a non-ict bachelors degree",
+        "I do not have experience in IT-related field",
+        "I do not have any Computer Science degrees"
       ]
     },
     "redirectFlow": "Programme-Introduction.flow.json",

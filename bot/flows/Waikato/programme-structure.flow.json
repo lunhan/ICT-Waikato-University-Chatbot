@@ -1,0 +1,154 @@
+{
+  "version": "0.0.1",
+  "catchAll": {},
+  "startNode": "entry",
+  "description": "",
+  "nodes": [
+    {
+      "id": "194e1522c0",
+      "name": "entry",
+      "onEnter": [],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "event.nlu.slots.programme.value === 'PGCert'",
+          "conditionType": "raw",
+          "node": "PGCert_Programme"
+        },
+        {
+          "condition": "event.nlu.slots.programme.value === 'MInfoTech'",
+          "conditionType": "raw",
+          "node": "MIT_Choice"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Both_Choice"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "f763fcf6e2",
+      "name": "End_handler",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "Reset-Slots {}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "3bcb9529ca",
+      "name": "Both_Choice",
+      "next": [
+        {
+          "condition": "event.payload.payload === 'PGCERT'",
+          "conditionType": "raw",
+          "node": "PGCert_Programme"
+        },
+        {
+          "condition": "event.payload.payload === 'MIT'",
+          "conditionType": "raw",
+          "node": "MIT_Choice"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_single-choice-vjlMO4"
+      ],
+      "onReceive": [],
+      "type": "standard"
+    },
+    {
+      "id": "380b4744f6",
+      "name": "MIT_Choice",
+      "next": [
+        {
+          "condition": "event.payload.payload === '120'",
+          "conditionType": "raw",
+          "node": "MIT_120_Programme"
+        },
+        {
+          "condition": "event.payload.payload === '180'",
+          "conditionType": "raw",
+          "node": "MIT_180_Programme"
+        },
+        {
+          "condition": "event.payload.payload === '240'",
+          "conditionType": "raw",
+          "node": "MIT_240_Programme"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_single-choice-5YUiNU"
+      ],
+      "onReceive": [],
+      "type": "standard"
+    },
+    {
+      "id": "c3bd091ca3",
+      "name": "PGCert_Programme",
+      "next": [
+        {
+          "condition": "true",
+          "node": "End_handler"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-I6GHhx"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "391ca209e2",
+      "name": "MIT_120_Programme",
+      "next": [
+        {
+          "condition": "true",
+          "node": "End_handler"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-Www0Ok"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "49b9d66651",
+      "name": "MIT_180_Programme",
+      "next": [
+        {
+          "condition": "true",
+          "node": "End_handler"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-bsI6Rm"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "afb59cf02d",
+      "name": "MIT_240_Programme",
+      "next": [
+        {
+          "condition": "true",
+          "node": "End_handler"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-5ZGt1t"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

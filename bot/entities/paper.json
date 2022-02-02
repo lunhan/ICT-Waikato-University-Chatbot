@@ -1,0 +1,18 @@
+{
+  "id": "paper",
+  "name": "Paper",
+  "type": "pattern",
+  "occurrences": [],
+  "sensitive": false,
+  "fuzzy": 0.8,
+  "examples": [
+    "COMPX568",
+    "CSMAX570",
+    "COMPX569",
+    "ENGME585",
+    "GEOGY538",
+    "GEOGY548"
+  ],
+  "pattern": "[COMPX | CSMAX | ENGME | GEOGY]+\\d\\d\\d",
+  "matchCase": false
+}

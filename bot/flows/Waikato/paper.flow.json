@@ -1,0 +1,38 @@
+{
+  "version": "0.0.1",
+  "catchAll": {},
+  "startNode": "Paper_link",
+  "description": "",
+  "nodes": [
+    {
+      "id": "1c87ac10b0",
+      "name": "Paper_link",
+      "next": [
+        {
+          "condition": "true",
+          "node": "End_handler-copy"
+        }
+      ],
+      "onEnter": [
+        "module/paper {\"paper\":\"{{event.nlu.slots.paper.value}}\"}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "98aab099ab",
+      "name": "End_handler-copy",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "Reset-Slots {}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

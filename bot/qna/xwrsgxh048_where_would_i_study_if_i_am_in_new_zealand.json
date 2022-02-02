@@ -1,0 +1,27 @@
+{
+  "id": "xwrsgxh048_where_would_i_study_if_i_am_in_new_zealand",
+  "data": {
+    "action": "text",
+    "contexts": [
+      "global"
+    ],
+    "enabled": true,
+    "answers": {
+      "en": [
+        "One semester of your MInfoTech will be devoted to an internship with an industry partner, working under supervision on a real-world project. While teaching takes place on our Hamilton campus, you can complete your internship in Tauranga."
+      ]
+    },
+    "questions": {
+      "en": [
+        "Where would I study if I am in New Zealand?",
+        "Study in NZ",
+        "Where do I study?",
+        "Location of study",
+        "Where do I go?",
+        "Where will I go for study"
+      ]
+    },
+    "redirectFlow": "",
+    "redirectNode": ""
+  }
+}

@@ -4,16 +4,12 @@
     "onReceive": [],
     "next": []
   },
-  "startNode": "entry",
+  "startNode": "Intent",
   "nodes": [
     {
       "id": "entry",
-      "name": "entry",
+      "name": "UoA",
       "next": [
-        {
-          "condition": "event.nlu.intent.name === 'none'",
-          "node": "Error"
-        },
         {
           "condition": "event.nlu.intent.name === 'course-information'",
           "node": "Primary/Course-Information.flow.json"
@@ -62,6 +58,70 @@
       "onEnter": [
         "Error-Message {}"
       ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "08c0690fd4",
+      "name": "Choose_Uni",
+      "next": [
+        {
+          "condition": "event.payload.payload === 'UOA'",
+          "conditionType": "raw",
+          "node": "UoA"
+        },
+        {
+          "condition": "event.payload.payload === 'UOW'",
+          "conditionType": "raw",
+          "node": "uow"
+        }
+      ],
+      "onEnter": [
+        "University-To-Select {}"
+      ],
+      "onReceive": [],
+      "type": "standard"
+    },
+    {
+      "id": "fa4bbba104",
+      "name": "uow",
+      "next": [
+        {
+          "condition": "event.nlu.intent.name === 'programme-structure'",
+          "conditionType": "intent",
+          "node": "Waikato/programme-structure.flow.json"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'paper'",
+          "conditionType": "intent",
+          "node": "Waikato/paper.flow.json"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'prerequisites'",
+          "conditionType": "intent",
+          "node": "Waikato/Prerequisites.flow.json"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "0d1a30e2d0",
+      "name": "Intent",
+      "next": [
+        {
+          "condition": "event.nlu.intent.name === 'none'",
+          "conditionType": "intent",
+          "node": "Error"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Choose_Uni"
+        }
+      ],
+      "onEnter": [],
       "onReceive": null,
       "type": "standard"
     }

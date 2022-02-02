@@ -1,0 +1,27 @@
+{
+  "id": "mrfcevyivr_what_is_the_fee_for_international_students",
+  "data": {
+    "action": "text",
+    "contexts": [
+      "global"
+    ],
+    "enabled": true,
+    "answers": {
+      "en": [
+        "Around $37,145 (120 points)"
+      ]
+    },
+    "questions": {
+      "en": [
+        "What is the fee for international students?",
+        "What if I am not a domestic student?",
+        "What if I am not resident or citizen?",
+        "International fee",
+        "Tuition fee for international student",
+        "Study fee for international student"
+      ]
+    },
+    "redirectFlow": "",
+    "redirectNode": ""
+  }
+}

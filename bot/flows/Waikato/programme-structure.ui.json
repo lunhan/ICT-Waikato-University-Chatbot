@@ -1,0 +1,242 @@
+{
+  "nodes": [
+    {
+      "id": "194e1522c0",
+      "position": {
+        "x": 185,
+        "y": 120
+      }
+    },
+    {
+      "id": "f763fcf6e2",
+      "position": {
+        "x": 1315,
+        "y": 225
+      }
+    },
+    {
+      "id": "3bcb9529ca",
+      "position": {
+        "x": 475,
+        "y": 160
+      }
+    },
+    {
+      "id": "380b4744f6",
+      "position": {
+        "x": 720,
+        "y": 425
+      }
+    },
+    {
+      "id": "c3bd091ca3",
+      "position": {
+        "x": 715,
+        "y": 55
+      }
+    },
+    {
+      "id": "391ca209e2",
+      "position": {
+        "x": 1020,
+        "y": 350
+      }
+    },
+    {
+      "id": "49b9d66651",
+      "position": {
+        "x": 1025,
+        "y": 530
+      }
+    },
+    {
+      "id": "afb59cf02d",
+      "position": {
+        "x": 1025,
+        "y": 710
+      }
+    }
+  ],
+  "links": [
+    {
+      "source": "194e1522c0",
+      "sourcePort": "out1",
+      "target": "380b4744f6",
+      "points": [
+        {
+          "x": 385,
+          "y": 213
+        },
+        {
+          "x": 721,
+          "y": 443
+        }
+      ]
+    },
+    {
+      "source": "194e1522c0",
+      "sourcePort": "out2",
+      "target": "3bcb9529ca",
+      "points": [
+        {
+          "x": 385,
+          "y": 250
+        },
+        {
+          "x": 475,
+          "y": 178
+        }
+      ]
+    },
+    {
+      "source": "194e1522c0",
+      "sourcePort": "out0",
+      "target": "c3bd091ca3",
+      "points": [
+        {
+          "x": 385,
+          "y": 170
+        },
+        {
+          "x": 716,
+          "y": 72
+        }
+      ]
+    },
+    {
+      "source": "380b4744f6",
+      "sourcePort": "out0",
+      "target": "391ca209e2",
+      "points": [
+        {
+          "x": 920,
+          "y": 511
+        },
+        {
+          "x": 1021,
+          "y": 368
+        }
+      ]
+    },
+    {
+      "source": "380b4744f6",
+      "sourcePort": "out1",
+      "target": "49b9d66651",
+      "points": [
+        {
+          "x": 920,
+          "y": 542
+        },
+        {
+          "x": 1025,
+          "y": 547
+        }
+      ]
+    },
+    {
+      "source": "380b4744f6",
+      "sourcePort": "out2",
+      "target": "afb59cf02d",
+      "points": [
+        {
+          "x": 920,
+          "y": 572
+        },
+        {
+          "x": 1025,
+          "y": 728
+        }
+      ]
+    },
+    {
+      "source": "391ca209e2",
+      "sourcePort": "out0",
+      "target": "f763fcf6e2",
+      "points": [
+        {
+          "x": 1220,
+          "y": 424
+        },
+        {
+          "x": 1316,
+          "y": 243
+        }
+      ]
+    },
+    {
+      "source": "3bcb9529ca",
+      "sourcePort": "out1",
+      "target": "380b4744f6",
+      "points": [
+        {
+          "x": 675,
+          "y": 277
+        },
+        {
+          "x": 721,
+          "y": 443
+        }
+      ]
+    },
+    {
+      "source": "3bcb9529ca",
+      "sourcePort": "out0",
+      "target": "c3bd091ca3",
+      "points": [
+        {
+          "x": 675,
+          "y": 246
+        },
+        {
+          "x": 716,
+          "y": 72
+        }
+      ]
+    },
+    {
+      "source": "49b9d66651",
+      "sourcePort": "out0",
+      "target": "f763fcf6e2",
+      "points": [
+        {
+          "x": 1225,
+          "y": 604
+        },
+        {
+          "x": 1316,
+          "y": 243
+        }
+      ]
+    },
+    {
+      "source": "afb59cf02d",
+      "sourcePort": "out0",
+      "target": "f763fcf6e2",
+      "points": [
+        {
+          "x": 1225,
+          "y": 784
+        },
+        {
+          "x": 1316,
+          "y": 243
+        }
+      ]
+    },
+    {
+      "source": "c3bd091ca3",
+      "sourcePort": "out0",
+      "target": "f763fcf6e2",
+      "points": [
+        {
+          "x": 915,
+          "y": 129
+        },
+        {
+          "x": 1316,
+          "y": 243
+        }
+      ]
+    }
+  ]
+}
